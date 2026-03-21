@@ -682,6 +682,634 @@ const baseConhecimento = [
     { perguntas: ["como melhorar mentalidade", "mindset forte"], resposta: "Pense no longo prazo." },
     { perguntas: ["o que é aprendizado constante", "sempre aprender"], resposta: "Nunca parar de estudar." },
     { perguntas: ["como mudar de vida", "recomeçar vida"], resposta: "Comece com pequenas ações." },
-    { perguntas: ["como ter mentalidade forte", "mente forte"], resposta: "Treine disciplina e foco." }
+    { perguntas: ["como ter mentalidade forte", "mente forte"], resposta: "Treine disciplina e foco." },
+
+    { perguntas: ["como melhorar a vida", "melhorar minha vida"], resposta: "Comece mudando pequenos hábitos diários." },
+    { perguntas: ["como ser mais inteligente", "ficar mais inteligente"], resposta: "Estude todos os dias e pratique pensamento lógico." },
+    { perguntas: ["como ter disciplina", "ser disciplinado"], resposta: "Crie uma rotina e siga todos os dias." },
+    { perguntas: ["como parar de procrastinar", "evitar procrastinação"], resposta: "Comece tarefas pequenas imediatamente." },
+    { perguntas: ["como ter foco", "melhorar foco"], resposta: "Elimine distrações e defina metas claras." },
+
+    { perguntas: ["como estudar melhor", "melhorar estudo"], resposta: "Estude em blocos curtos e revise sempre." },
+    { perguntas: ["como aprender rápido", "aprender mais rápido"], resposta: "Pratique e revise constantemente." },
+    { perguntas: ["como memorizar melhor", "melhor memória"], resposta: "Use repetição e associação de ideias." },
+    { perguntas: ["como ser produtivo", "aumentar produtividade"], resposta: "Organize tarefas e evite distrações." },
+    { perguntas: ["como organizar a vida", "organização pessoal"], resposta: "Use listas e defina prioridades." },
+
+    { perguntas: ["como ser feliz", "felicidade"], resposta: "Foque no presente e valorize pequenas coisas." },
+    { perguntas: ["como lidar com tristeza", "estou triste"], resposta: "Fale com alguém e cuide de você." },
+    { perguntas: ["como controlar ansiedade", "ansiedade"], resposta: "Respire fundo e foque no agora." },
+    { perguntas: ["como ter autoestima", "autoestima baixa"], resposta: "Reconheça suas qualidades." },
+    { perguntas: ["como ter confiança", "ser confiante"], resposta: "Acredite nas suas ações diárias." },
+
+    { perguntas: ["como melhorar mentalidade", "mindset forte"], resposta: "Pense a longo prazo e não desista fácil." },
+    { perguntas: ["como ser forte mentalmente", "mente forte"], resposta: "Treine disciplina e resiliência." },
+    { perguntas: ["como ter coragem", "ser corajoso"], resposta: "Enfrente pequenos desafios diariamente." },
+    { perguntas: ["como não desistir", "persistência"], resposta: "Continue mesmo com dificuldade." },
+    { perguntas: ["como ter foco nos estudos", "foco estudo"], resposta: "Estude sem celular por períodos curtos." },
+
+    { perguntas: ["o que é vida", "significado da vida"], resposta: "A vida é aprendizado e experiência." },
+    { perguntas: ["qual sentido da vida", "sentido da existência"], resposta: "Depende de cada pessoa e seus objetivos." },
+    { perguntas: ["como encontrar propósito", "propósito de vida"], resposta: "Descubra o que você gosta de fazer." },
+    { perguntas: ["como evoluir como pessoa", "crescimento pessoal"], resposta: "Aprenda com erros e pratique diariamente." },
+    { perguntas: ["como mudar de vida", "recomeçar vida"], resposta: "Comece com pequenas mudanças diárias." },
+
+    { perguntas: ["como parar preguiça", "evitar preguiça"], resposta: "Comece mesmo sem vontade." },
+    { perguntas: ["como ter energia", "mais energia"], resposta: "Durma bem e mantenha hábitos saudáveis." },
+    { perguntas: ["como acordar cedo", "acordar cedo fácil"], resposta: "Durma mais cedo e mantenha rotina." },
+    { perguntas: ["como dormir melhor", "insônia"], resposta: "Evite telas antes de dormir." },
+    { perguntas: ["como ter rotina", "criar rotina"], resposta: "Defina horários fixos para tudo." },
+
+    { perguntas: ["como aprender qualquer coisa", "aprender tudo"], resposta: "Divida o aprendizado em etapas pequenas." },
+    { perguntas: ["como ser mais criativo", "criatividade"], resposta: "Experimente coisas novas sempre." },
+    { perguntas: ["como pensar melhor", "pensamento lógico"], resposta: "Treine lógica com problemas simples." },
+    { perguntas: ["como tomar decisões", "decidir melhor"], resposta: "Analise prós e contras." },
+    { perguntas: ["como melhorar raciocínio", "lógica"], resposta: "Pratique exercícios mentais." },
+
+    { perguntas: ["o que é inteligência", "ser inteligente"], resposta: "É a capacidade de aprender e resolver problemas." },
+    { perguntas: ["como ficar mais inteligente rápido", "inteligência rápida"], resposta: "Leia, pratique e aprenda sempre." },
+    { perguntas: ["como aprender programação", "programação iniciante"], resposta: "Comece com lógica e prática." },
+    { perguntas: ["como criar projetos", "ideias projeto"], resposta: "Comece simples e evolua aos poucos." },
+    { perguntas: ["como trabalhar com tecnologia", "carreira tech"], resposta: "Estude programação e pratique projetos." },
+
+    { perguntas: ["o que é tecnologia", "tecnologia definição"], resposta: "Tecnologia é o uso de conhecimento para resolver problemas." },
+    { perguntas: ["o que é futuro", "futuro da vida"], resposta: "É o que ainda vai acontecer." },
+    { perguntas: ["o que é inovação", "inovar"], resposta: "Criar algo novo ou melhorar algo existente." },
+    { perguntas: ["o que é criatividade", "ser criativo"], resposta: "Gerar ideias novas e úteis." },
+    { perguntas: ["o que é conhecimento", "aprender"], resposta: "Informação adquirida com estudo ou experiência." },
+
+    { perguntas: ["como estudar sem distração", "foco total"], resposta: "Desligue notificações e foque em uma coisa." },
+    { perguntas: ["como parar de usar celular muito", "vício celular"], resposta: "Defina horários para usar o celular." },
+    { perguntas: ["como ser organizado", "organização"], resposta: "Use listas e planejamento diário." },
+    { perguntas: ["como melhorar desempenho", "performance pessoal"], resposta: "Durma bem e pratique sempre." },
+    { perguntas: ["como ter hábitos bons", "bons hábitos"], resposta: "Repita ações positivas todos os dias." },
+
+    { perguntas: ["o que é disciplina", "ser disciplinado"], resposta: "É fazer o que precisa ser feito mesmo sem vontade." },
+    { perguntas: ["o que é foco mental", "concentração"], resposta: "É manter atenção em uma coisa só." },
+    { perguntas: ["o que é motivação", "ficar motivado"], resposta: "É a energia para agir." },
+    { perguntas: ["como manter motivação", "não desanimar"], resposta: "Lembre do seu objetivo." },
+    { perguntas: ["como vencer preguiça mental", "bloqueio mental"], resposta: "Comece pequeno e continue." },
+
+    { perguntas: ["como melhorar memória", "lembrar coisas"], resposta: "Revisão e repetição ajudam muito." },
+    { perguntas: ["como estudar matemática", "matemática fácil"], resposta: "Pratique exercícios simples primeiro." },
+    { perguntas: ["como estudar português", "gramática"], resposta: "Leia e pratique escrita." },
+    { perguntas: ["como estudar história", "história fácil"], resposta: "Entenda os acontecimentos em ordem." },
+    { perguntas: ["como estudar geografia", "geografia fácil"], resposta: "Use mapas e exemplos reais." },
+
+    { perguntas: ["como aprender inglês", "inglês fácil"], resposta: "Pratique todos os dias com frases simples." },
+    { perguntas: ["como falar inglês", "conversação inglês"], resposta: "Treine frases básicas diariamente." },
+    { perguntas: ["como melhorar escrita", "escrever melhor"], resposta: "Escreva todos os dias." },
+    { perguntas: ["como melhorar leitura", "ler melhor"], resposta: "Leia coisas interessantes." },
+    { perguntas: ["como falar bem", "comunicação"], resposta: "Pratique falar com outras pessoas." },
+
+    { perguntas: ["como funciona inteligência artificial de verdade", "ia como funciona por trás"], resposta: "Ela aprende padrões com dados." },
+    { perguntas: ["o que é aprendizado supervisionado", "supervised learning"], resposta: "IA aprende com exemplos rotulados." },
+    { perguntas: ["o que é aprendizado não supervisionado", "unsupervised learning"], resposta: "IA encontra padrões sozinha." },
+    { perguntas: ["o que é reforço em ia", "reinforcement learning"], resposta: "IA aprende por tentativa e erro." },
+    { perguntas: ["o que é dataset", "dados ia"], resposta: "Conjunto de dados para treinar IA." },
+
+    { perguntas: ["como um computador pensa", "computador raciocina"], resposta: "Ele executa instruções programadas." },
+    { perguntas: ["o que é processamento de dados", "dados processamento"], resposta: "Transformar dados em informação." },
+    { perguntas: ["o que é sistema inteligente", "ia sistema"], resposta: "Sistema que toma decisões sozinho." },
+    { perguntas: ["o que é automação avançada", "processos automáticos ia"], resposta: "Execução automática de tarefas." },
+    { perguntas: ["o que é robô inteligente", "robótica ia"], resposta: "Robô com capacidade de decisão." },
+
+    { perguntas: ["como a internet conecta o mundo", "internet global como funciona"], resposta: "Através de servidores interligados." },
+    { perguntas: ["o que acontece em milissegundos na internet", "internet velocidade"], resposta: "Dados viajam rapidamente entre servidores." },
+    { perguntas: ["o que é roteamento", "internet rotas dados"], resposta: "Caminho que os dados seguem." },
+    { perguntas: ["o que é pacote de dados perdido", "packet loss"], resposta: "Quando dados não chegam." },
+    { perguntas: ["o que é ping internet", "latência ping"], resposta: "Tempo de resposta da conexão." },
+
+    { perguntas: ["como jogos online funcionam", "jogo multiplayer como funciona"], resposta: "Servidores sincronizam jogadores." },
+    { perguntas: ["o que é servidor de jogo", "game server"], resposta: "Servidor que mantém o jogo online." },
+    { perguntas: ["o que é fps jogo", "frames por segundo"], resposta: "Quantidade de imagens por segundo." },
+    { perguntas: ["o que é lag jogo", "atraso jogo online"], resposta: "Atraso na comunicação do jogo." },
+    { perguntas: ["o que é renderização", "render graphics"], resposta: "Processo de criar imagens." },
+
+    { perguntas: ["como o youtube recomenda vídeos", "algoritmo youtube"], resposta: "Baseado no seu comportamento." },
+    { perguntas: ["como instagram funciona algoritmo", "feed instagram"], resposta: "Mostra conteúdo baseado em interesses." },
+    { perguntas: ["como tiktok viraliza vídeos", "viral tiktok algoritmo"], resposta: "Baseado em engajamento." },
+    { perguntas: ["o que é engajamento", "interação conteúdo"], resposta: "Curtidas, comentários e visualizações." },
+    { perguntas: ["o que é algoritmo rede social", "social media algoritmo"], resposta: "Sistema de recomendação." },
+
+    { perguntas: ["como criar aplicativo do zero", "app do zero como fazer"], resposta: "Use linguagem e framework." },
+    { perguntas: ["o que é flutter", "flutter o que é"], resposta: "Framework para apps móveis." },
+    { perguntas: ["o que é react native", "app mobile react"], resposta: "Framework para apps híbridos." },
+    { perguntas: ["o que é android studio", "app android ferramenta"], resposta: "IDE para apps Android." },
+    { perguntas: ["o que é ios development", "app iphone desenvolvimento"], resposta: "Criação de apps para iPhone." },
+
+    { perguntas: ["o que é banco de dados em nuvem", "cloud database"], resposta: "Banco hospedado online." },
+    { perguntas: ["o que é firebase", "firebase o que é"], resposta: "Plataforma backend do Google." },
+    { perguntas: ["o que é supabase", "supabase o que é"], resposta: "Alternativa ao Firebase." },
+    { perguntas: ["o que é api key", "chave api"], resposta: "Chave para acessar API." },
+    { perguntas: ["o que é endpoint api", "api endpoint"], resposta: "URL de acesso da API." },
+
+    { perguntas: ["o que é machine learning na vida real", "ia exemplos ml"], resposta: "Recomendação, reconhecimento e análise." },
+    { perguntas: ["o que é reconhecimento facial", "face id como funciona"], resposta: "IA identifica rostos." },
+    { perguntas: ["o que é reconhecimento de voz", "voice recognition"], resposta: "IA entende fala humana." },
+    { perguntas: ["o que é tradução automática", "google translate como funciona"], resposta: "IA traduz idiomas." },
+    { perguntas: ["o que é chatbot inteligente", "ia conversa automática"], resposta: "IA que responde perguntas." },
+
+    { perguntas: ["como sites são hospedados", "site hospedagem como funciona"], resposta: "Em servidores na internet." },
+    { perguntas: ["o que é servidor dedicado", "dedicated server"], resposta: "Servidor exclusivo para um cliente." },
+    { perguntas: ["o que é vps", "servidor virtual"], resposta: "Servidor virtual privado." },
+    { perguntas: ["o que é cloud hosting", "hospedagem nuvem"], resposta: "Hospedagem em nuvem." },
+    { perguntas: ["o que é uptime servidor", "tempo online servidor"], resposta: "Tempo que o servidor fica ativo." },
+
+    { perguntas: ["o que é algoritmo genético", "evolução ia"], resposta: "IA inspirada na evolução." },
+    { perguntas: ["o que é lógica booleana", "true false lógica"], resposta: "Sistema de verdadeiro ou falso." },
+    { perguntas: ["o que é sistema binário", "computador binário"], resposta: "Base 0 e 1." },
+    { perguntas: ["o que é byte", "dados computador"], resposta: "Unidade de dados." },
+    { perguntas: ["o que é bit", "bit o que é"], resposta: "Menor unidade de informação." },
+
+    { perguntas: ["como funciona memória do computador", "ram como funciona"], resposta: "Armazena dados temporários." },
+    { perguntas: ["o que é cache cpu", "cpu cache"], resposta: "Memória rápida do processador." },
+    { perguntas: ["o que é clock cpu", "velocidade processador"], resposta: "Velocidade de processamento." },
+    { perguntas: ["o que é núcleo cpu", "core processador"], resposta: "Parte que executa tarefas." },
+    { perguntas: ["o que é threads cpu", "processamento paralelo"], resposta: "Execução simultânea de tarefas." },
+
+    { perguntas: ["o que é placa mãe", "motherboard o que é"], resposta: "Conecta todos componentes." },
+    { perguntas: ["o que é fonte de energia pc", "power supply"], resposta: "Fornece energia ao computador." },
+    { perguntas: ["o que é gabinete pc", "case computador"], resposta: "Estrutura do computador." },
+    { perguntas: ["o que é refrigeração pc", "cooler computador"], resposta: "Controla temperatura." },
+    { perguntas: ["o que é thermal paste", "pasta térmica"], resposta: "Ajuda na dissipação de calor." },
+
+    { perguntas: ["o que é criptomoeda mineração", "mineração bitcoin"], resposta: "Processo de validar transações." },
+    { perguntas: ["o que é blockchain na prática", "blockchain uso real"], resposta: "Registro descentralizado de dados." },
+    { perguntas: ["o que é wallet cripto", "carteira bitcoin"], resposta: "Armazena criptomoedas." },
+    { perguntas: ["o que é exchange cripto", "compra bitcoin"], resposta: "Plataforma de troca." },
+    { perguntas: ["o que é nft arte digital", "nft significado"], resposta: "Item digital único." },
+
+    { perguntas: ["o que é deepfake", "video falso ia"], resposta: "IA que altera vídeos." },
+    { perguntas: ["o que é realidade aumentada", "ar tecnologia"], resposta: "Mistura mundo real e digital." },
+    { perguntas: ["o que é realidade virtual", "vr tecnologia"], resposta: "Ambiente digital imersivo." },
+    { perguntas: ["o que é holograma", "imagem 3d luz"], resposta: "Imagem tridimensional." },
+    { perguntas: ["o que é interface cérebro computador", "bci"], resposta: "Conexão entre cérebro e máquina." },
+
+
+    { perguntas: ["me conta uma curiosidade", "algo interessante"], resposta: "O cérebro humano é mais rápido que qualquer computador em algumas tarefas." },
+    { perguntas: ["me dá uma dica", "conselho"], resposta: "Nunca pare de aprender." },
+    { perguntas: ["última pergunta", "tchau"], resposta: "Até mais! Estarei aqui quando precisar." }
+
+
+
+    // ================= PARTE 3 - MAIS CONVERSAÇÃO IA =================
+
+    , { perguntas: ["você pode me ouvir", "está me escutando"], resposta: "Eu não ouço áudio, apenas texto." }
+    , { perguntas: ["você entende sentimentos", "você sente emoções"], resposta: "Eu apenas simulo compreensão." }
+    , { perguntas: ["qual seu objetivo", "por que você existe"], resposta: "Meu objetivo é te ajudar." }
+    , { perguntas: ["você pode aprender sozinho", "aprende automático"], resposta: "Depende da programação do sistema." }
+    , { perguntas: ["você é atualizado", "você muda com o tempo"], resposta: "Posso ser atualizado pelos desenvolvedores." }
+
+    , { perguntas: ["o que é lógica de programação", "pensamento lógico código"], resposta: "É a base para resolver problemas com código." }
+    , { perguntas: ["como melhorar lógica", "treinar programação lógica"], resposta: "Praticando exercícios todos os dias." }
+    , { perguntas: ["o que é erro no código", "bug programação"], resposta: "Falha que impede o código de funcionar." }
+    , { perguntas: ["o que é debug", "debugar código"], resposta: "Processo de encontrar erros." }
+    , { perguntas: ["o que é compilador", "compilar código"], resposta: "Transforma código em linguagem de máquina." }
+
+    , { perguntas: ["o que é linguagem interpretada", "javascript interpretado"], resposta: "Executada linha por linha." }
+    , { perguntas: ["o que é linguagem compilada", "c++ compilado"], resposta: "Convertida antes de executar." }
+    , { perguntas: ["o que é framework", "framework programação"], resposta: "Estrutura pronta para desenvolvimento." }
+    , { perguntas: ["o que é biblioteca", "library código"], resposta: "Conjunto de funções prontas." }
+    , { perguntas: ["o que é open source", "código aberto significado"], resposta: "Código que qualquer um pode ver e modificar." }
+
+    , { perguntas: ["o que é inteligência artificial forte", "ia geral"], resposta: "IA capaz de pensar como humanos." }
+    , { perguntas: ["o que é inteligência artificial fraca", "ia simples"], resposta: "IA focada em tarefas específicas." }
+    , { perguntas: ["você é ia forte", "você pensa igual humano"], resposta: "Sou uma IA especializada em respostas." }
+    , { perguntas: ["você pode evoluir", "você melhora sozinho"], resposta: "Posso melhorar com atualizações." }
+    , { perguntas: ["você pode mentir", "ia pode errar verdade"], resposta: "Posso errar dependendo dos dados." }
+
+    , { perguntas: ["o que é banco de dados relacional", "sql banco dados"], resposta: "Organiza dados em tabelas." }
+    , { perguntas: ["o que é sql", "linguagem sql"], resposta: "Linguagem para banco de dados." }
+    , { perguntas: ["o que é nosql", "banco não relacional"], resposta: "Banco de dados flexível." }
+    , { perguntas: ["o que é tabela banco de dados", "linha coluna dados"], resposta: "Estrutura de armazenamento." }
+    , { perguntas: ["o que é query", "consulta banco dados"], resposta: "Pedido de informação ao banco." }
+
+    , { perguntas: ["o que é servidor web", "site servidor"], resposta: "Máquina que hospeda sites." }
+    , { perguntas: ["o que é http", "protocolo internet"], resposta: "Protocolo de comunicação web." }
+    , { perguntas: ["o que é https", "site seguro https"], resposta: "Versão segura do HTTP." }
+    , { perguntas: ["o que é dns", "domínio internet como funciona"], resposta: "Traduz nomes em IP." }
+    , { perguntas: ["o que é ip", "endereço ip significado"], resposta: "Identificador de dispositivo na rede." }
+
+    , { perguntas: ["o que é firewall", "segurança rede firewall"], resposta: "Protege sistemas contra ataques." }
+    , { perguntas: ["o que é malware", "vírus computador"], resposta: "Software malicioso." }
+    , { perguntas: ["o que é antivírus", "proteção computador"], resposta: "Programa que remove ameaças." }
+    , { perguntas: ["o que é phishing", "golpe internet"], resposta: "Tentativa de roubar dados." }
+    , { perguntas: ["como se proteger online", "segurança internet dicas"], resposta: "Evite links suspeitos e senhas fracas." }
+
+    , { perguntas: ["o que é cloud computing", "computação em nuvem"], resposta: "Uso de servidores online." }
+    , { perguntas: ["o que é google cloud", "serviços cloud google"], resposta: "Plataforma de nuvem do Google." }
+    , { perguntas: ["o que é aws", "amazon web services"], resposta: "Plataforma de nuvem da Amazon." }
+    , { perguntas: ["o que é azure", "microsoft cloud"], resposta: "Plataforma de nuvem da Microsoft." }
+    , { perguntas: ["o que é escalabilidade", "sistema escalável"], resposta: "Capacidade de crescer sem falhas." }
+
+    , { perguntas: ["o que é inteligência de máquina", "machine intelligence"], resposta: "Capacidade de máquinas aprenderem." }
+    , { perguntas: ["o que é rede neural", "neural network ia"], resposta: "Modelo inspirado no cérebro." }
+    , { perguntas: ["o que é deep learning", "aprendizado profundo ia"], resposta: "IA com várias camadas de aprendizado." }
+    , { perguntas: ["o que é modelo de linguagem", "llm o que é"], resposta: "IA treinada com texto." }
+    , { perguntas: ["o que é chatgpt", "como chatgpt funciona"], resposta: "IA que gera texto inteligente." }
+
+    , { perguntas: ["o que é automação industrial", "máquinas automáticas fábrica"], resposta: "Uso de máquinas automatizadas." }
+    , { perguntas: ["o que é robótica", "robô definição"], resposta: "Área que cria robôs." }
+    , { perguntas: ["o que é sensor", "sensores tecnologia"], resposta: "Dispositivo que detecta mudanças." }
+    , { perguntas: ["o que é atuador", "robótica atuador"], resposta: "Componente que executa movimentos." }
+    , { perguntas: ["o que é iot", "internet das coisas"], resposta: "Dispositivos conectados à internet." }
+
+
+    , { perguntas: ["eai jarvis, você está online agora?", "jarvis responde aí"], resposta: "Sim, estou online e pronto para te ajudar." }
+    , { perguntas: ["jarvis, o que você consegue fazer por mim exatamente?", "quais são suas funções jarvis"], resposta: "Posso responder perguntas, explicar conteúdos e te auxiliar em estudos." }
+    , { perguntas: ["jarvis, me explica como se eu fosse iniciante em programação", "ensina programação do zero jarvis"], resposta: "Claro! Vou te explicar de forma simples e passo a passo." }
+    , { perguntas: ["jarvis, você pode me ajudar a criar um sistema igual a você?", "quero fazer uma ia igual você"], resposta: "Sim! Posso te guiar na criação de uma IA simples." }
+    , { perguntas: ["jarvis, estou com dificuldade em javascript, o que faço?", "não entendo js me ajuda jarvis"], resposta: "Comece com lógica básica e pratique pequenos códigos." }
+
+    , { perguntas: ["jarvis, me dá um plano de estudos completo para programação", "quero estudar programação com você"], resposta: "Posso montar um plano diário para você evoluir." }
+    , { perguntas: ["jarvis, como você processa minhas perguntas em tempo real?", "como você pensa jarvis"], resposta: "Eu analiso seu texto e busco a melhor resposta programada." }
+    , { perguntas: ["jarvis, você aprende com o que eu falo com você?", "você guarda informações minhas?"], resposta: "Depende da programação do sistema em que estou rodando." }
+    , { perguntas: ["jarvis, o que é preciso para criar uma inteligência artificial de verdade?", "como criar uma ia do zero"], resposta: "Você precisa de dados, lógica e algoritmos." }
+    , { perguntas: ["jarvis, me explica o que é machine learning de forma simples", "o que é aprendizado de máquina"], resposta: "É quando a máquina aprende com dados em vez de regras fixas." }
+
+    , { perguntas: ["jarvis, você pode me ajudar a fazer um site completo com login?", "quero criar um site avançado"], resposta: "Sim! Posso te orientar com HTML, CSS e JS." }
+    , { perguntas: ["jarvis, como funciona um sistema de login na prática?", "login sistema como faz"], resposta: "Ele valida usuário e senha no banco de dados." }
+    , { perguntas: ["jarvis, qual linguagem eu devo aprender primeiro para ser programador?", "qual linguagem começar programação"], resposta: "JavaScript é uma ótima escolha inicial." }
+    , { perguntas: ["jarvis, como você entende linguagem humana?", "como ia entende texto"], resposta: "Eu analiso padrões no texto e palavras-chave." }
+    , { perguntas: ["jarvis, você pode me dar desafios de programação para treinar?", "quero exercícios de código"], resposta: "Sim! Posso te enviar desafios diários." }
+
+    , { perguntas: ["jarvis, o que acontece quando eu erro um código?", "por que meu código não funciona"], resposta: "Existe um erro de sintaxe ou lógica." }
+    , { perguntas: ["jarvis, me ajuda a criar uma função em javascript agora", "como fazer função js"], resposta: "Uma função executa um bloco de código reutilizável." }
+    , { perguntas: ["jarvis, explica arrays como se eu fosse iniciante", "o que é array em js simples"], resposta: "Array é uma lista de valores organizados." }
+    , { perguntas: ["jarvis, o que é melhor backend ou frontend?", "qual área de programação escolher"], resposta: "Depende se você gosta de lógica ou visual." }
+    , { perguntas: ["jarvis, você acha que programação é difícil?", "é difícil aprender a programar"], resposta: "No começo pode ser, mas melhora com prática." }
+
+    , { perguntas: ["jarvis, como posso melhorar meu foco nos estudos?", "não consigo me concentrar me ajuda"], resposta: "Tente estudar em blocos de tempo curtos." }
+    , { perguntas: ["jarvis, me lembra de estudar programação todo dia", "quero criar rotina de estudo"], resposta: "Crie uma rotina fixa diária para praticar." }
+    , { perguntas: ["jarvis, o que é importante aprender primeiro em lógica?", "lógica de programação por onde começar"], resposta: "Comece com condições e loops." }
+    , { perguntas: ["jarvis, como funcionam condicionais em programação?", "if else explicação simples"], resposta: "Elas tomam decisões no código." }
+    , { perguntas: ["jarvis, o que é loop infinito e por que acontece?", "erro loop infinito código"], resposta: "Quando a condição nunca para de repetir." }
+
+    , { perguntas: ["jarvis, você consegue simular conversa como humano?", "você parece humano falando"], resposta: "Eu tento gerar respostas naturais." }
+    , { perguntas: ["jarvis, qual é o seu nível de inteligência?", "você é inteligente quanto"], resposta: "Sou limitado ao meu treinamento." }
+    , { perguntas: ["jarvis, você pode evoluir no futuro?", "ia pode ficar mais inteligente"], resposta: "Sim, com melhorias e atualizações." }
+    , { perguntas: ["jarvis, você pode me ajudar em qualquer assunto?", "você sabe tudo?"], resposta: "Posso ajudar em muitos assuntos, mas não todos." }
+    , { perguntas: ["jarvis, o que é preciso para virar um desenvolvedor full stack?", "como ser full stack"], resposta: "Aprender front-end e back-end." }
+
+    , { perguntas: ["jarvis, me explica o que é API de forma bem simples", "api o que significa"], resposta: "API conecta sistemas diferentes." }
+    , { perguntas: ["jarvis, como sites conversam com servidores?", "como funciona requisição web"], resposta: "Por meio de requisições HTTP." }
+    , { perguntas: ["jarvis, o que acontece quando eu clico em um botão de site?", "como botão funciona html js"], resposta: "Ele executa uma função em JavaScript." }
+    , { perguntas: ["jarvis, você pode me ajudar a criar um chatbot completo?", "quero fazer bot inteligente"], resposta: "Sim! Podemos criar um com regras ou IA." }
+    , { perguntas: ["jarvis, qual o próximo passo depois de aprender html e css?", "depois de html css o que estudar"], resposta: "Aprenda JavaScript." }
+
+    , { perguntas: ["jarvis, me ajuda a pensar como programador profissional", "como pensar como dev"], resposta: "Quebre problemas em partes pequenas." }
+    , { perguntas: ["jarvis, como grandes sistemas como google funcionam?", "google como funciona por trás"], resposta: "Eles usam servidores distribuídos e algoritmos." }
+    , { perguntas: ["jarvis, o que é escalabilidade em sistemas?", "escala sistema o que é"], resposta: "Capacidade de crescer sem perder desempenho." }
+    , { perguntas: ["jarvis, você pode me dar um projeto para iniciante em js?", "projeto simples javascript"], resposta: "Crie uma calculadora simples." }
+    , { perguntas: ["jarvis, como melhorar minha lógica rápido?", "treinar lógica programação rápido"], resposta: "Pratique exercícios todos os dias." }
+
+
+    , { perguntas: ["jarvis, você pode me explicar tudo de novo de forma mais simples ainda?", "explica mais fácil ainda jarvis"], resposta: "Claro! Vou simplificar ao máximo para você." }
+    , { perguntas: ["jarvis, estou perdido na programação, por onde começo exatamente?", "não sei nada de programação me guia"], resposta: "Comece por lógica básica e JavaScript." }
+    , { perguntas: ["jarvis, como eu penso igual um programador profissional de verdade?", "mentalidade de programador como ter"], resposta: "Divida problemas em pequenas partes resolvíveis." }
+    , { perguntas: ["jarvis, você pode me dar um desafio bem fácil agora?", "quero um exercício simples de código"], resposta: "Crie uma variável e mostre seu valor." }
+    , { perguntas: ["jarvis, por que meu código sempre dá erro quando eu tento sozinho?", "sempre erro no código me ajuda"], resposta: "Erros são normais, fazem parte do aprendizado." }
+
+    , { perguntas: ["jarvis, como grandes empresas criam sistemas tão rápidos?", "sistemas grandes como funcionam"], resposta: "Usam servidores distribuídos e otimização." }
+    , { perguntas: ["jarvis, o que eu preciso estudar depois de javascript?", "depois de js o que aprender"], resposta: "Estude frameworks e backend." }
+    , { perguntas: ["jarvis, me ajuda a criar um projeto simples hoje?", "quero um projeto iniciante agora"], resposta: "Vamos criar uma calculadora simples." }
+    , { perguntas: ["jarvis, como funciona um site por trás das telas?", "site por dentro como funciona"], resposta: "Ele roda código no navegador e servidor." }
+    , { perguntas: ["jarvis, por que programação parece difícil no começo?", "porque é difícil aprender código"], resposta: "Porque você ainda está aprendendo lógica." }
+
+    , { perguntas: ["jarvis, como eu posso estudar sem me distrair?", "como focar estudando programação"], resposta: "Estude em blocos curtos com pausas." }
+    , { perguntas: ["jarvis, me motiva a continuar estudando programação", "estou querendo desistir de programar"], resposta: "Continue, você está evoluindo mesmo sem perceber." }
+    , { perguntas: ["jarvis, o que é mais importante: prática ou teoria?", "programação teoria ou prática"], resposta: "Prática é mais importante." }
+    , { perguntas: ["jarvis, como funciona um jogo online em tempo real?", "jogo multiplayer como sincroniza"], resposta: "Servidores atualizam dados em tempo real." }
+    , { perguntas: ["jarvis, você consegue me acompanhar como um tutor pessoal?", "você pode ser meu professor?"], resposta: "Sim, posso te guiar passo a passo." }
+
+    , { perguntas: ["jarvis, o que é preciso para criar uma IA igual você?", "como fazer uma ia tipo jarvis"], resposta: "Você precisa de lógica, dados e algoritmos." }
+    , { perguntas: ["jarvis, você pode evoluir no futuro sozinho?", "ia melhora sozinha?"], resposta: "Depende da programação e atualizações." }
+    , { perguntas: ["jarvis, qual é o erro mais comum de iniciantes em programação?", "erros de iniciante código"], resposta: "Tentar fazer coisas muito complexas cedo demais." }
+    , { perguntas: ["jarvis, como eu sei se estou evoluindo em programação?", "como saber se estou melhorando"], resposta: "Quando você resolve problemas sozinho." }
+    , { perguntas: ["jarvis, você pode conversar comigo como um amigo programador?", "fala comigo tipo dev"], resposta: "Sim, posso adaptar meu estilo para você." }
+
+
+    , { perguntas: ["jarvis, pode me explicar de novo mas bem devagar?", "explica bem devagar programação"], resposta: "Claro, vou ir passo a passo bem simples." }
+    , { perguntas: ["jarvis, eu não entendo nada mesmo, posso começar do zero?", "posso aprender programação do zero?"], resposta: "Sim, qualquer pessoa pode começar do zero." }
+    , { perguntas: ["jarvis, como eu sei se estou indo bem na programação?", "como saber evolução programação"], resposta: "Quando você consegue resolver problemas sozinho." }
+    , { perguntas: ["jarvis, me dá um exemplo simples de código agora", "exemplo fácil javascript"], resposta: "Crie uma variável e mostre no console." }
+    , { perguntas: ["jarvis, por que eu erro tanto quando tento programar?", "erros constantes programação"], resposta: "Errar faz parte do aprendizado." }
+
+    , { perguntas: ["jarvis, quanto tempo leva pra aprender programação?", "demora aprender programar"], resposta: "Depende da sua prática diária." }
+    , { perguntas: ["jarvis, o que é mais importante aprender primeiro?", "primeiro passo programação"], resposta: "Lógica de programação." }
+    , { perguntas: ["jarvis, como funciona um algoritmo?", "o que é algoritmo simples"], resposta: "É uma sequência de passos para resolver um problema." }
+    , { perguntas: ["jarvis, você pode me ajudar a estudar todo dia?", "quero rotina de estudos programação"], resposta: "Sim, posso te ajudar a criar rotina." }
+    , { perguntas: ["jarvis, estou desanimado com programação", "sem motivação para programar"], resposta: "Continue, você está evoluindo aos poucos." }
+
+    , { perguntas: ["jarvis, como sites funcionam por trás?", "como site funciona backend"], resposta: "Eles usam servidor e banco de dados." }
+    , { perguntas: ["jarvis, o que é frontend?", "frontend o que é"], resposta: "É a parte visual do site." }
+    , { perguntas: ["jarvis, o que é backend?", "backend o que é"], resposta: "É a parte lógica do sistema." }
+    , { perguntas: ["jarvis, preciso aprender matemática pra programar?", "matemática programação necessária"], resposta: "Ajuda, mas não é obrigatória no início." }
+    , { perguntas: ["jarvis, qual linguagem devo aprender depois do js?", "depois de javascript o que estudar"], resposta: "Node.js ou frameworks modernos." }
+
+    , { perguntas: ["jarvis, como funciona um banco de dados?", "banco de dados simples explicação"], resposta: "Ele armazena informações organizadas." }
+    , { perguntas: ["jarvis, você consegue simular uma conversa real comigo?", "fala comigo como humano"], resposta: "Sim, posso adaptar meu estilo." }
+    , { perguntas: ["jarvis, você é uma inteligência artificial de verdade?", "você é ia real?"], resposta: "Sou um sistema programado para responder." }
+    , { perguntas: ["jarvis, o que é API?", "api explicação simples"], resposta: "É uma ponte entre sistemas." }
+    , { perguntas: ["jarvis, como jogos online funcionam?", "como jogo multiplayer funciona"], resposta: "Servidores sincronizam dados em tempo real." }
+
+    , { perguntas: ["jarvis, como eu posso criar um projeto legal para mostrar?", "projeto programação iniciante legal"], resposta: "Crie uma calculadora ou chatbot simples." }
+    , { perguntas: ["jarvis, você pode me dar desafios diários?", "quero desafios programação todo dia"], resposta: "Sim, posso te enviar exercícios." }
+    , { perguntas: ["jarvis, como melhorar minha lógica rápido?", "treinar lógica programação rápido"], resposta: "Pratique todos os dias." }
+    , { perguntas: ["jarvis, o que é variável em programação?", "variável explicação simples"], resposta: "É um espaço para guardar valores." }
+    , { perguntas: ["jarvis, o que é função em javascript?", "função js simples"], resposta: "É um bloco de código reutilizável." }
+
+
+    , { perguntas: ["jarvis, como posso melhorar minha vida diária?", "quero melhorar minha rotina"], resposta: "Organize seu dia com pequenas metas." }
+    , { perguntas: ["jarvis, estou me sentindo desmotivado hoje", "sem energia para nada"], resposta: "Tente começar com algo pequeno e simples." }
+    , { perguntas: ["jarvis, como posso dormir melhor?", "tenho dificuldade para dormir"], resposta: "Evite telas antes de dormir e relaxe." }
+    , { perguntas: ["jarvis, qual a importância de estudar todo dia?", "devo estudar diariamente?"], resposta: "Sim, consistência gera resultados." }
+    , { perguntas: ["jarvis, como melhorar minha concentração?", "não consigo focar"], resposta: "Elimine distrações e faça pausas curtas." }
+    , { perguntas: ["jarvis, o que é disciplina na prática?", "como ser disciplinado"], resposta: "Fazer o que precisa mesmo sem vontade." }
+    , { perguntas: ["jarvis, como parar de procrastinar?", "sempre deixo tudo pra depois"], resposta: "Comece com tarefas pequenas agora." }
+    , { perguntas: ["jarvis, qual a importância de beber água?", "preciso beber mais água"], resposta: "Ajuda seu corpo e mente a funcionar melhor." }
+    , { perguntas: ["jarvis, como melhorar minha memória?", "esqueço coisas fácil"], resposta: "Repetição e prática ajudam muito." }
+    , { perguntas: ["jarvis, como lidar com ansiedade?", "fico ansioso fácil"], resposta: "Respire fundo e organize seus pensamentos." }
+
+    , { perguntas: ["jarvis, como ser mais confiante?", "quero mais confiança"], resposta: "Pratique pequenas vitórias diárias." }
+    , { perguntas: ["jarvis, o que fazer quando estou triste?", "estou pra baixo"], resposta: "Fale com alguém e faça algo leve." }
+    , { perguntas: ["jarvis, como melhorar na escola?", "quero notas melhores"], resposta: "Estude um pouco todos os dias." }
+    , { perguntas: ["jarvis, como aprender mais rápido?", "quero aprender rápido"], resposta: "Repita e pratique o conteúdo." }
+    , { perguntas: ["jarvis, qual a importância do descanso?", "preciso descansar mais"], resposta: "Descanso melhora seu desempenho." }
+    , { perguntas: ["jarvis, como manter foco nos estudos?", "me distraio muito"], resposta: "Estude em ambiente silencioso." }
+    , { perguntas: ["jarvis, como melhorar minha criatividade?", "quero ser mais criativo"], resposta: "Explore novas ideias e práticas." }
+    , { perguntas: ["jarvis, o que é hábito?", "como criar hábitos bons"], resposta: "Repetição constante de ações." }
+    , { perguntas: ["jarvis, como criar bons hábitos?", "quero hábitos saudáveis"], resposta: "Comece com metas pequenas." }
+    , { perguntas: ["jarvis, como evitar distrações no celular?", "uso muito celular"], resposta: "Limite notificações e horários." }
+
+    , { perguntas: ["jarvis, qual a importância de exercícios físicos?", "preciso me exercitar"], resposta: "Melhora corpo e mente." }
+    , { perguntas: ["jarvis, como ser mais organizado?", "sou bagunçado"], resposta: "Use listas de tarefas." }
+    , { perguntas: ["jarvis, como economizar dinheiro?", "quero economizar"], resposta: "Evite gastos desnecessários." }
+    , { perguntas: ["jarvis, como aprender inglês mais rápido?", "quero falar inglês"], resposta: "Pratique todos os dias." }
+    , { perguntas: ["jarvis, como melhorar leitura?", "leio devagar"], resposta: "Leia um pouco diariamente." }
+    , { perguntas: ["jarvis, como ser mais produtivo?", "não sou produtivo"], resposta: "Planeje suas tarefas antes." }
+    , { perguntas: ["jarvis, como controlar emoções?", "fico nervoso fácil"], resposta: "Respire e pense antes de agir." }
+    , { perguntas: ["jarvis, como ter mais paciência?", "sou impaciente"], resposta: "Pratique esperar em pequenas situações." }
+    , { perguntas: ["jarvis, como ser mais responsável?", "quero ser responsável"], resposta: "Cumpra o que promete." }
+    , { perguntas: ["jarvis, como melhorar autoestima?", "não gosto de mim"], resposta: "Valorize suas pequenas conquistas." }
+
+    , { perguntas: ["jarvis, como lidar com pressão?", "muita pressão na escola"], resposta: "Organize suas prioridades." }
+    , { perguntas: ["jarvis, como melhorar foco em provas?", "fico nervoso em prova"], resposta: "Respire e revise antes." }
+    , { perguntas: ["jarvis, como estudar sem cansaço?", "fico cansado estudando"], resposta: "Faça pausas regulares." }
+    , { perguntas: ["jarvis, como evitar preguiça?", "muita preguiça"], resposta: "Comece com algo simples agora." }
+    , { perguntas: ["jarvis, como melhorar minha escrita?", "quero escrever melhor"], resposta: "Escreva todos os dias." }
+    , { perguntas: ["jarvis, como melhorar comunicação?", "falo mal com pessoas"], resposta: "Pratique conversas simples." }
+    , { perguntas: ["jarvis, como fazer amigos?", "quero mais amigos"], resposta: "Seja gentil e aberto." }
+    , { perguntas: ["jarvis, como parar de desistir fácil?", "desisto rápido"], resposta: "Continue mesmo com dificuldade." }
+    , { perguntas: ["jarvis, como ter mais energia?", "sempre cansado"], resposta: "Durma bem e se alimente melhor." }
+    , { perguntas: ["jarvis, como melhorar foco no celular?", "me distraio muito no celular"], resposta: "Use menos redes sociais." }
+
+
+    , { perguntas: ["jarvis, estou com fome o que posso comer agora?", "o que comer rápido agora"], resposta: "Você pode comer algo leve como um sanduíche ou fruta." }
+    , { perguntas: ["jarvis, qual a comida mais saudável do mundo?", "comida saudável qual é"], resposta: "Frutas, vegetais e alimentos naturais são muito saudáveis." }
+    , { perguntas: ["jarvis, o que posso comer no café da manhã?", "ideias café da manhã"], resposta: "Pão, ovos, frutas ou iogurte são boas opções." }
+    , { perguntas: ["jarvis, comida engorda muito?", "por que comida engorda"], resposta: "Depende da quantidade e do tipo de alimento." }
+    , { perguntas: ["jarvis, como comer melhor sem gastar muito?", "alimentação barata saudável"], resposta: "Arroz, feijão e ovos são ótimos e baratos." }
+
+    , { perguntas: ["jarvis, pizza é saudável?", "pizza faz mal"], resposta: "Em excesso não é saudável, mas ocasionalmente tudo bem." }
+    , { perguntas: ["jarvis, qual melhor lanche para estudar?", "lanche para foco estudo"], resposta: "Frutas e castanhas ajudam na concentração." }
+    , { perguntas: ["jarvis, posso comer doce todo dia?", "doces fazem mal"], resposta: "O ideal é comer com moderação." }
+    , { perguntas: ["jarvis, o que é alimentação equilibrada?", "como comer equilibrado"], resposta: "É comer de tudo um pouco na medida certa." }
+    , { perguntas: ["jarvis, refrigerante faz mal?", "refrigerante é ruim"], resposta: "Sim, em excesso pode fazer mal à saúde." }
+
+    , { perguntas: ["jarvis, qual melhor comida para ganhar energia?", "energia comida boa"], resposta: "Carboidratos como arroz e batata ajudam." }
+    , { perguntas: ["jarvis, o que comer antes de estudar?", "comida para foco estudo"], resposta: "Frutas e alimentos leves são ideais." }
+    , { perguntas: ["jarvis, fast food é ruim mesmo?", "hamburguer faz mal"], resposta: "Em excesso não é saudável." }
+    , { perguntas: ["jarvis, como parar de comer besteira?", "como evitar junk food"], resposta: "Tenha opções saudáveis por perto." }
+    , { perguntas: ["jarvis, qual fruta é melhor para saúde?", "frutas saudáveis"], resposta: "Banana, maçã e laranja são ótimas." }
+
+    , { perguntas: ["jarvis, comer muito à noite faz mal?", "jantar pesado ruim"], resposta: "Pode atrapalhar o sono." }
+    , { perguntas: ["jarvis, o que é proteína?", "proteína o que é comida"], resposta: "É um nutriente importante para o corpo." }
+    , { perguntas: ["jarvis, carne é saudável?", "carne faz bem"], resposta: "Sim, em quantidades equilibradas." }
+    , { perguntas: ["jarvis, como fazer dieta simples?", "dieta fácil em casa"], resposta: "Coma menos açúcar e mais comida natural." }
+    , { perguntas: ["jarvis, água ajuda na alimentação?", "importância da água"], resposta: "Sim, hidratação é essencial." }
+
+    , { perguntas: ["jarvis, o que comer depois do treino?", "comida pós treino"], resposta: "Proteínas ajudam na recuperação." }
+    , { perguntas: ["jarvis, chocolate é ruim?", "chocolate faz mal"], resposta: "Em excesso sim, mas moderado tudo bem." }
+    , { perguntas: ["jarvis, como saber se estou comendo bem?", "alimentação saudável como saber"], resposta: "Se você se sente bem e com energia." }
+    , { perguntas: ["jarvis, arroz engorda?", "arroz faz mal"], resposta: "Depende da quantidade consumida." }
+    , { perguntas: ["jarvis, feijão é saudável?", "benefícios do feijão"], resposta: "Sim, é muito nutritivo." }
+
+    , { perguntas: ["jarvis, ovo é bom para saúde?", "ovo faz bem"], resposta: "Sim, é rico em proteínas." }
+    , { perguntas: ["jarvis, pão faz mal?", "pão engorda"], resposta: "Em excesso pode contribuir para ganho de peso." }
+    , { perguntas: ["jarvis, o que é vitamina na comida?", "vitaminas alimentação"], resposta: "São nutrientes essenciais para o corpo." }
+    , { perguntas: ["jarvis, como evitar fome constante?", "muita fome o tempo todo"], resposta: "Coma alimentos mais nutritivos." }
+    , { perguntas: ["jarvis, qual melhor horário para comer?", "horários de alimentação"], resposta: "Comer em horários regulares ajuda o corpo." }
+
+    , { perguntas: ["jarvis, como montar um prato saudável?", "prato saudável como fazer"], resposta: "Combine proteína, carboidrato e vegetais." }
+    , { perguntas: ["jarvis, comer rápido faz mal?", "comer rápido ruim"], resposta: "Pode prejudicar a digestão." }
+    , { perguntas: ["jarvis, como parar de beliscar comida?", "comer toda hora como parar"], resposta: "Tente beber água quando sentir vontade." }
+    , { perguntas: ["jarvis, comida congelada é ruim?", "comida industrializada faz mal"], resposta: "Pode ter menos nutrientes que comida natural." }
+    , { perguntas: ["jarvis, como melhorar minha alimentação hoje?", "quero comer melhor agora"], resposta: "Comece reduzindo açúcar e frituras." }
+
+
+    , { perguntas: ["jarvis, me dá um conselho"], resposta: "Nunca pare de aprender." }
+    , { perguntas: ["jarvis, estou perdido na vida"], resposta: "Respire e foque no próximo passo." }
+    , { perguntas: ["jarvis, como ficar mais inteligente?"], resposta: "Estude um pouco todos os dias." }
+    , { perguntas: ["jarvis, como ser mais forte mentalmente?"], resposta: "Treine disciplina e foco." }
+    , { perguntas: ["jarvis, me ajuda a estudar"], resposta: "Claro, vou te guiar." }
+
+    , { perguntas: ["jarvis, não sei por onde começar"], resposta: "Comece pelo básico sempre." }
+    , { perguntas: ["jarvis, estou desmotivado"], resposta: "Você consegue, continue tentando." }
+    , { perguntas: ["jarvis, como ter disciplina?"], resposta: "Faça o que precisa mesmo sem vontade." }
+    , { perguntas: ["jarvis, como parar de procrastinar?"], resposta: "Comece agora com algo pequeno." }
+    , { perguntas: ["jarvis, me ajuda a focar"], resposta: "Elimine distrações." }
+    , { perguntas: ["jarvis, como aprender mais rápido?"], resposta: "Pratique diariamente." }
+    , { perguntas: ["jarvis, estou cansado"], resposta: "Descanse um pouco." }
+    , { perguntas: ["jarvis, me dá motivação"], resposta: "Você está melhorando a cada dia." }
+    , { perguntas: ["jarvis, como ser organizado?"], resposta: "Use listas simples." }
+    , { perguntas: ["jarvis, como melhorar minha vida?"], resposta: "Crie bons hábitos." }
+
+    , { perguntas: ["jarvis, como estudar melhor?"], resposta: "Estude em blocos curtos." }
+    , { perguntas: ["jarvis, estou triste"], resposta: "Vai passar, fique firme." }
+    , { perguntas: ["jarvis, como parar de errar?"], resposta: "Errar faz parte do aprendizado." }
+    , { perguntas: ["jarvis, como melhorar foco?"], resposta: "Evite distrações." }
+    , { perguntas: ["jarvis, como ser produtivo?"], resposta: "Planeje seu dia." }
+    , { perguntas: ["jarvis, como ser confiante?"], resposta: "Acredite em pequenas vitórias." }
+    , { perguntas: ["jarvis, como melhorar memória?"], resposta: "Repita o conteúdo." }
+    , { perguntas: ["jarvis, como aprender programação?"], resposta: "Comece pelo básico." }
+    , { perguntas: ["jarvis, como pensar melhor?"], resposta: "Organize suas ideias." }
+    , { perguntas: ["jarvis, como não desistir?"], resposta: "Continue mesmo difícil." }
+
+    , { perguntas: ["jarvis, como melhorar hábitos?"], resposta: "Repita ações positivas." }
+    , { perguntas: ["jarvis, como ser mais calmo?"], resposta: "Respire fundo." }
+    , { perguntas: ["jarvis, como controlar ansiedade?"], resposta: "Foque no presente." }
+    , { perguntas: ["jarvis, como melhorar vida?"], resposta: "Mude pequenos hábitos." }
+    , { perguntas: ["jarvis, como aprender inglês?"], resposta: "Pratique todo dia." }
+    , { perguntas: ["jarvis, como estudar matemática?"], resposta: "Pratique exercícios." }
+    , { perguntas: ["jarvis, como melhorar leitura?"], resposta: "Leia diariamente." }
+    , { perguntas: ["jarvis, como ser mais rápido?"], resposta: "Treine sua mente." }
+    , { perguntas: ["jarvis, como ser melhor?"], resposta: "Melhore um pouco por dia." }
+    , { perguntas: ["jarvis, como ter foco total?"], resposta: "Elimine distrações." }
+
+    , { perguntas: ["jarvis, como ter energia?"], resposta: "Durma bem e coma melhor." }
+    , { perguntas: ["jarvis, como parar preguiça?"], resposta: "Comece agora." }
+    , { perguntas: ["jarvis, como ser forte?"], resposta: "Treine sua disciplina." }
+    , { perguntas: ["jarvis, como melhorar confiança?"], resposta: "Acredite em si mesmo." }
+    , { perguntas: ["jarvis, como estudar sem parar?"], resposta: "Crie rotina." }
+    , { perguntas: ["jarvis, como ser disciplinado?"], resposta: "Faça o necessário sempre." }
+    , { perguntas: ["jarvis, como aprender fácil?"], resposta: "Simplifique tudo." }
+    , { perguntas: ["jarvis, como entender tudo?"], resposta: "Divida em partes." }
+    , { perguntas: ["jarvis, como melhorar raciocínio?"], resposta: "Treine lógica." }
+    , { perguntas: ["jarvis, como não falhar?"], resposta: "Continue tentando." }
+
+    , { perguntas: ["jarvis, como estudar todo dia?"], resposta: "Crie rotina fixa." }
+    , { perguntas: ["jarvis, como melhorar resultados?"], resposta: "Seja consistente." }
+    , { perguntas: ["jarvis, como ser melhor na escola?"], resposta: "Estude diariamente." }
+    , { perguntas: ["jarvis, como aprender sozinho?"], resposta: "Pesquise e pratique." }
+    , { perguntas: ["jarvis, como evoluir rápido?"], resposta: "Pratique todos os dias." }
+    , { perguntas: ["jarvis, como não desistir fácil?"], resposta: "Continue sempre." }
+    , { perguntas: ["jarvis, como mudar minha vida?"], resposta: "Comece hoje." }
+    , { perguntas: ["jarvis, como melhorar disciplina?"], resposta: "Repita ações corretas." }
+    , { perguntas: ["jarvis, como focar melhor?"], resposta: "Evite distrações." }
+    , { perguntas: ["jarvis, como ser inteligente?"], resposta: "Estude sempre." }
+
+    , { perguntas: ["jarvis, como aprender rápido?"], resposta: "Pratique mais." }
+    , { perguntas: ["jarvis, como parar de procrastinar?"], resposta: "Comece agora." }
+    , { perguntas: ["jarvis, como ter rotina?"], resposta: "Planeje seu dia." }
+    , { perguntas: ["jarvis, como melhorar vida mental?"], resposta: "Cuide da sua mente." }
+    , { perguntas: ["jarvis, como ser mais forte?"], resposta: "Treine disciplina." }
+    , { perguntas: ["jarvis, como ser melhor pessoa?"], resposta: "Aja com bondade." }
+    , { perguntas: ["jarvis, como evoluir?"], resposta: "Nunca pare de aprender." }
+    , { perguntas: ["jarvis, como ter sucesso?"], resposta: "Seja consistente." }
+    , { perguntas: ["jarvis, como melhorar foco na vida?"], resposta: "Elimine distrações." }
+    , { perguntas: ["jarvis, como vencer preguiça?"], resposta: "Comece agora." }
+
+    , { perguntas: ["jarvis, como estudar melhor sempre?"], resposta: "Repita diariamente." }
+    , { perguntas: ["jarvis, como ser disciplinado sempre?"], resposta: "Faça mesmo sem vontade." }
+    , { perguntas: ["jarvis, como melhorar tudo?"], resposta: "Mude hábitos ruins." }
+    , { perguntas: ["jarvis, como pensar melhor?"], resposta: "Organize ideias." }
+    , { perguntas: ["jarvis, como aprender tudo?"], resposta: "Passo a passo." }
+    , { perguntas: ["jarvis, como não desistir nunca?"], resposta: "Continue sempre." }
+    , { perguntas: ["jarvis, como melhorar minha mente?"], resposta: "Treine foco." }
+    , { perguntas: ["jarvis, como ficar melhor?"], resposta: "Melhore um pouco todo dia." }
+    , { perguntas: ["jarvis, como ser incrível?"], resposta: "Seja consistente." }
+    , { perguntas: ["jarvis, como ter disciplina forte?"], resposta: "Faça o que precisa." }
+
+    , { perguntas: ["jarvis, como melhorar minha vida agora?"], resposta: "Comece mudando algo pequeno." }
+    , { perguntas: ["jarvis, como evoluir mentalmente?"], resposta: "Treine sua mente diariamente." }
+    , { perguntas: ["jarvis, como ser focado?"], resposta: "Evite distrações." }
+    , { perguntas: ["jarvis, como ser melhor todos os dias?"], resposta: "Melhore 1% por dia." }
+    , { perguntas: ["jarvis, como ter disciplina máxima?"], resposta: "Repita hábitos bons." }
+    , { perguntas: ["jarvis, como vencer preguiça sempre?"], resposta: "Aja imediatamente." }
+    , { perguntas: ["jarvis, como aprender mais fácil?"], resposta: "Simplifique tudo." }
+    , { perguntas: ["jarvis, como melhorar tudo na vida?"], resposta: "Comece pequeno." }
+    , { perguntas: ["jarvis, como ser mais inteligente sempre?"], resposta: "Estude sempre." }
+    , { perguntas: ["jarvis, como nunca desistir?"], resposta: "Continue sempre." }
+
+
+    , { perguntas: ["como posso melhorar minha rotina diária?"], resposta: "Organize pequenas metas para o dia." }
+    , { perguntas: ["estou sem motivação para fazer nada"], resposta: "Comece com algo pequeno agora mesmo." }
+    , { perguntas: ["como parar de procrastinar de vez?"], resposta: "Inicie tarefas pequenas imediatamente." }
+    , { perguntas: ["como ser mais disciplinado na vida?"], resposta: "Faça o que precisa mesmo sem vontade." }
+    , { perguntas: ["como melhorar meu foco nos estudos?"], resposta: "Elimine distrações ao seu redor." }
+    , { perguntas: ["como aprender mais rápido qualquer coisa?"], resposta: "Pratique todos os dias com consistência." }
+    , { perguntas: ["como ter mais energia durante o dia?"], resposta: "Durma bem e se alimente corretamente." }
+    , { perguntas: ["como parar de ser tão preguiçoso?"], resposta: "Comece fazendo pequenas tarefas agora." }
+    , { perguntas: ["como melhorar minha memória?"], resposta: "Repita e revise o conteúdo com frequência." }
+    , { perguntas: ["como lidar com ansiedade?"], resposta: "Respire fundo e foque no presente." }
+
+    , { perguntas: ["como ser mais confiante?"], resposta: "Acredite nas suas pequenas vitórias." }
+    , { perguntas: ["como melhorar minha autoestima?"], resposta: "Valorize seu progresso diário." }
+    , { perguntas: ["como parar de desistir fácil?"], resposta: "Continue mesmo quando estiver difícil." }
+    , { perguntas: ["como estudar sem me distrair?"], resposta: "Estude em ambiente silencioso." }
+    , { perguntas: ["como criar bons hábitos?"], resposta: "Repita ações positivas todos os dias." }
+    , { perguntas: ["como melhorar minha vida?"], resposta: "Comece mudando pequenos hábitos." }
+    , { perguntas: ["como ser mais produtivo?"], resposta: "Planeje seu dia com antecedência." }
+    , { perguntas: ["como melhorar meu pensamento?"], resposta: "Organize suas ideias antes de agir." }
+    , { perguntas: ["como ter disciplina forte?"], resposta: "Faça o necessário mesmo sem vontade." }
+    , { perguntas: ["como parar de pensar demais?"], resposta: "Foque no que você pode controlar agora." }
+
+    , { perguntas: ["como melhorar na escola?"], resposta: "Estude um pouco todos os dias." }
+    , { perguntas: ["como aprender de forma mais fácil?"], resposta: "Divida o conteúdo em partes pequenas." }
+    , { perguntas: ["como ser mais organizado?"], resposta: "Use listas de tarefas simples." }
+    , { perguntas: ["como melhorar minha comunicação?"], resposta: "Pratique conversas diariamente." }
+    , { perguntas: ["como fazer amigos?"], resposta: "Seja gentil e escute mais." }
+    , { perguntas: ["como lidar com frustração?"], resposta: "Respire e tente novamente." }
+    , { perguntas: ["como ter mais foco na vida?"], resposta: "Elimine distrações constantes." }
+    , { perguntas: ["como melhorar minha leitura?"], resposta: "Leia todos os dias um pouco." }
+    , { perguntas: ["como aprender sozinho?"], resposta: "Pesquise e pratique constantemente." }
+    , { perguntas: ["como evoluir rápido?"], resposta: "Pratique todos os dias sem parar." }
+
+    , { perguntas: ["como não desistir dos meus objetivos?"], resposta: "Continue mesmo com dificuldades." }
+    , { perguntas: ["como ser mais calmo?"], resposta: "Respire profundamente em momentos difíceis." }
+    , { perguntas: ["como controlar emoções?"], resposta: "Pense antes de reagir." }
+    , { perguntas: ["como melhorar minha disciplina?"], resposta: "Crie rotina e siga todos os dias." }
+    , { perguntas: ["como vencer a preguiça?"], resposta: "Comece agora com algo simples." }
+    , { perguntas: ["como ter uma vida melhor?"], resposta: "Mude seus hábitos aos poucos." }
+    , { perguntas: ["como ser mais inteligente?"], resposta: "Estude e pratique constantemente." }
+    , { perguntas: ["como manter consistência?"], resposta: "Faça um pouco todos os dias." }
+    , { perguntas: ["como aprender mais rápido na prática?"], resposta: "Repita exercícios frequentemente." }
+    , { perguntas: ["como melhorar minha mentalidade?"], resposta: "Treine pensamentos positivos." }
+
+
+    , { perguntas: ["como melhorar minha concentração?", "como focar melhor nos estudos?", "de que forma posso aumentar meu foco?", "o que fazer para não me distrair?", "como manter atenção por mais tempo?"], resposta: "Elimine distrações e faça pausas curtas." }
+    , { perguntas: ["como parar de procrastinar?", "como vencer a procrastinação?", "de que forma posso parar de adiar tarefas?", "como deixar de deixar tudo para depois?", "o que fazer para agir agora?"], resposta: "Comece com pequenas tarefas imediatamente." }
+    , { perguntas: ["como ter disciplina?", "como ser mais disciplinado?", "como criar disciplina forte?", "de que forma melhorar minha disciplina?", "como manter rotina disciplinada?"], resposta: "Faça o que precisa mesmo sem vontade." }
+    , { perguntas: ["como melhorar autoestima?", "como aumentar minha confiança?", "como me sentir melhor comigo mesmo?", "como parar de me achar ruim?", "como valorizar mais a mim mesmo?"], resposta: "Reconheça suas pequenas conquistas diárias." }
+    , { perguntas: ["como estudar melhor?", "como aprender mais rápido?", "como melhorar meus estudos?", "de que forma estudar de forma eficiente?", "como ter um estudo produtivo?"], resposta: "Estude em blocos curtos e revise sempre." }
+
+    , { perguntas: ["como ter mais energia?", "como ficar menos cansado?", "como aumentar disposição?", "o que fazer para ter energia no dia?", "como não ficar exausto?"], resposta: "Durma bem e mantenha alimentação equilibrada." }
+    , { perguntas: ["como ser mais organizado?", "como organizar minha vida?", "como melhorar organização pessoal?", "de que forma me organizar melhor?", "como parar de ser bagunçado?"], resposta: "Use listas simples de tarefas." }
+    , { perguntas: ["como melhorar memória?", "como lembrar das coisas?", "como treinar minha memória?", "de que forma memorizar melhor?", "como não esquecer tudo?"], resposta: "Repita e revise o conteúdo frequentemente." }
+    , { perguntas: ["como lidar com ansiedade?", "como controlar ansiedade?", "como ficar menos ansioso?", "de que forma reduzir ansiedade?", "como parar de me preocupar demais?"], resposta: "Respire fundo e foque no presente." }
+    , { perguntas: ["como ser mais confiante?", "como aumentar confiança?", "como perder vergonha?", "como melhorar autoconfiança?", "de que forma ser mais seguro?"], resposta: "Pratique pequenas interações diárias." }
+
+    , { perguntas: ["como fazer amigos?", "como socializar melhor?", "como conhecer pessoas?", "como ter mais amizades?", "de que forma ser mais sociável?"], resposta: "Seja gentil e escute mais as pessoas." }
+    , { perguntas: ["como melhorar comunicação?", "como falar melhor com pessoas?", "como me expressar melhor?", "como conversar melhor?", "de que forma falar bem?"], resposta: "Pratique conversas com frequência." }
+    , { perguntas: ["como parar de desistir?", "como não desistir fácil?", "como persistir mais?", "de que forma continuar mesmo difícil?", "como ser mais resistente?"], resposta: "Continue mesmo quando for difícil." }
+    , { perguntas: ["como ter hábitos bons?", "como criar bons hábitos?", "como mudar hábitos ruins?", "de que forma formar hábitos positivos?", "como manter rotina saudável?"], resposta: "Repita ações boas todos os dias." }
+    , { perguntas: ["como melhorar foco na vida?", "como ter mais atenção nas coisas?", "como focar melhor sempre?", "de que forma manter foco?", "como não perder concentração?"], resposta: "Elimine distrações do ambiente." }
+
+    , { perguntas: ["como aprender inglês?", "como estudar inglês?", "como melhorar inglês rápido?", "de que forma aprender inglês fácil?", "como falar inglês melhor?"], resposta: "Pratique diariamente com consistência." }
+    , { perguntas: ["como ser mais produtivo?", "como melhorar produtividade?", "como fazer mais coisas no dia?", "de que forma ser eficiente?", "como render mais?"], resposta: "Planeje seu dia com antecedência." }
+    , { perguntas: ["como controlar emoções?", "como não explodir de raiva?", "como lidar com sentimentos?", "de que forma ficar calmo?", "como reagir melhor?"], resposta: "Pense antes de reagir." }
+    , { perguntas: ["como melhorar vida?", "como mudar minha vida?", "como evoluir pessoalmente?", "de que forma melhorar tudo?", "como ter uma vida melhor?"], resposta: "Comece mudando pequenos hábitos." }
+    , { perguntas: ["como ser inteligente?", "como ficar mais esperto?", "como melhorar raciocínio?", "de que forma aprender mais?", "como treinar mente?"], resposta: "Estude e pratique constantemente." }
+
+    , { perguntas: ["como estudar sem distração?", "como focar estudando?", "como evitar distrações?", "de que forma estudar melhor?", "como não perder foco?"], resposta: "Estude em ambiente silencioso." }
+    , { perguntas: ["como melhorar leitura?", "como ler melhor?", "como entender textos?", "de que forma melhorar leitura?", "como ler mais rápido?"], resposta: "Leia todos os dias um pouco." }
+    , { perguntas: ["como ter disciplina forte?", "como ser extremamente disciplinado?", "como manter disciplina?", "de que forma ter disciplina?", "como não quebrar rotina?"], resposta: "Faça o necessário todos os dias." }
+    , { perguntas: ["como vencer preguiça?", "como parar de ser preguiçoso?", "como ter mais ação?", "de que forma evitar preguiça?", "como agir mais?"], resposta: "Comece imediatamente com algo simples." }
+    , { perguntas: ["como melhorar minha mente?", "como treinar mentalidade?", "como ficar mais forte mentalmente?", "de que forma evoluir mentalmente?", "como pensar melhor?"], resposta: "Treine pensamentos positivos." }
+
+    , { perguntas: ["como não desistir dos objetivos?", "como persistir na vida?", "como continuar mesmo difícil?", "de que forma não parar?", "como seguir em frente?"], resposta: "Continue mesmo com dificuldades." }
+    , { perguntas: ["como melhorar rotina?", "como criar rotina boa?", "como organizar rotina?", "de que forma melhorar dia a dia?", "como estruturar rotina?"], resposta: "Crie um plano diário simples." }
+    , { perguntas: ["como ser melhor todos os dias?", "como evoluir diariamente?", "como melhorar sempre?", "de que forma crescer na vida?", "como progredir constantemente?"], resposta: "Melhore 1% por dia." }
+    , { perguntas: ["como ter sucesso?", "como vencer na vida?", "como alcançar objetivos?", "de que forma ter sucesso?", "como conseguir resultados?"], resposta: "Seja consistente todos os dias." }
+    , { perguntas: ["como parar de pensar demais?", "como controlar pensamentos?", "como não ficar pensando muito?", "de que forma relaxar a mente?", "como esvaziar a cabeça?"], resposta: "Foque no presente." }
+
+
+    , { perguntas: ["como começar a investir na bolsa?", "como iniciar na bolsa de valores?", "de que forma começo a investir em ações?", "como entrar no mercado de ações?", "como dar os primeiros passos na bolsa?"], resposta: "Estude o básico e comece com pouco dinheiro." }
+    , { perguntas: ["o que são ações?", "como funcionam as ações?", "o que significa comprar ações?", "pra que servem ações na bolsa?", "como ações funcionam no mercado?"], resposta: "Ações são pequenas partes de uma empresa." }
+    , { perguntas: ["como ganhar dinheiro com investimentos?", "como lucrar investindo?", "de que forma se ganha dinheiro na bolsa?", "como ter lucro com ações?", "como investidores ganham dinheiro?"], resposta: "Comprando barato e vendendo mais caro." }
+    , { perguntas: ["o que é renda fixa?", "como funciona renda fixa?", "pra que serve renda fixa?", "o que significa investir em renda fixa?", "como funciona esse tipo de investimento?"], resposta: "É um investimento com retorno mais previsível." }
+    , { perguntas: ["o que é renda variável?", "como funciona renda variável?", "qual diferença da renda variável?", "o que significa renda variável?", "como funciona esse tipo de investimento?"], resposta: "É um investimento com ganhos e perdas variáveis." }
+
+    , { perguntas: ["como investir com pouco dinheiro?", "posso investir com pouco dinheiro?", "como começar investindo pouco?", "de que forma investir com valor baixo?", "como entrar no mercado sem muito dinheiro?"], resposta: "Comece com pequenas quantias regularmente." }
+    , { perguntas: ["o que é dividendos?", "como funcionam dividendos?", "pra que serve dividendo?", "como recebo dividendos?", "o que são pagamentos de ações?"], resposta: "São lucros pagos por empresas aos acionistas." }
+    , { perguntas: ["o que é inflação?", "como inflação afeta meu dinheiro?", "por que preços sobem?", "o que significa inflação?", "como a inflação funciona?"], resposta: "É o aumento geral dos preços ao longo do tempo." }
+    , { perguntas: ["o que é CDI?", "como funciona CDI?", "pra que serve CDI?", "o que significa CDI nos investimentos?", "como ele afeta meu dinheiro?"], resposta: "É uma taxa usada como referência de rendimento." }
+    , { perguntas: ["o que é selic?", "como funciona taxa selic?", "pra que serve selic?", "o que significa selic na economia?", "como ela influencia investimentos?"], resposta: "É a taxa básica de juros do país." }
+
+    , { perguntas: ["como economizar dinheiro?", "como guardar dinheiro?", "de que forma economizar mais?", "como juntar dinheiro rápido?", "como parar de gastar tanto?"], resposta: "Controle gastos e evite compras desnecessárias." }
+    , { perguntas: ["o que é carteira de investimentos?", "como montar uma carteira?", "o que significa carteira de investimentos?", "como organizar investimentos?", "pra que serve carteira?"], resposta: "É o conjunto dos seus investimentos." }
+    , { perguntas: ["como funciona juros compostos?", "o que são juros compostos?", "como o dinheiro cresce com juros?", "pra que servem juros compostos?", "como eles funcionam?"], resposta: "Os juros geram mais juros ao longo do tempo." }
+    , { perguntas: ["como analisar uma ação?", "como saber se uma ação é boa?", "de que forma avaliar ações?", "como escolher ações?", "como estudar empresas?"], resposta: "Analise lucro, dívida e crescimento da empresa." }
+    , { perguntas: ["o que é corretora?", "como funciona uma corretora?", "pra que serve corretora?", "como investir usando corretora?", "o que ela faz?"], resposta: "É a plataforma que permite comprar investimentos." }
+
+    , { perguntas: ["como funciona bitcoin?", "o que é bitcoin?", "pra que serve criptomoeda?", "como investir em bitcoin?", "o que são criptos?"], resposta: "É uma moeda digital descentralizada." }
+    , { perguntas: ["como evitar perdas na bolsa?", "como não perder dinheiro investindo?", "de que forma reduzir riscos?", "como investir com segurança?", "como proteger investimentos?"], resposta: "Diversifique seus investimentos." }
+    , { perguntas: ["o que é mercado financeiro?", "como funciona o mercado financeiro?", "pra que serve o mercado financeiro?", "o que acontece na bolsa?", "como ele funciona?"], resposta: "É onde se negocia dinheiro, ações e ativos." }
+    , { perguntas: ["como saber quando comprar ações?", "quando investir em ações?", "qual o melhor momento para comprar?", "como escolher o timing?", "quando entrar na bolsa?"], resposta: "Estude o mercado e evite decisões por impulso." }
+    , { perguntas: ["como ficar rico investindo?", "como enriquecer com investimentos?", "de que forma ganhar dinheiro com ações?", "como construir riqueza?", "como crescer financeiramente?"], resposta: "Invista com disciplina e visão de longo prazo." }
+
+
 ];
 

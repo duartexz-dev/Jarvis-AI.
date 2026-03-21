@@ -147,6 +147,62 @@ function executarComando(comando) {
         return;
     }
 
+    if (comando.includes("investidor10")) {
+        atualizarStatus("🌐 Abrindo Investidor10...");
+        falar("Abrindo Investidor10");
+        window.open("https://investidor10.com.br/");
+        addLog("Investidor10", "OK");
+        return;
+    }
+
+    if (comando.includes("binance")) {
+        atualizarStatus("🌐 Abrindo Binance...");
+        falar("Abrindo Binance");
+        window.open("https://www.binance.com/pt-BR");
+        addLog("Binance", "OK");
+        return;
+    }
+
+    if (comando.includes("netflix")) {
+        atualizarStatus("🌐 Abrindo Netflix...");
+        falar("Abrindo Netflix");
+        window.open("https://www.netflix.com/br/");
+        addLog("Netflix", "OK");
+        return;
+    }
+
+    if (comando.includes("bitcoin") || comando.includes("btc")) {
+        atualizarStatus("💰 Abrindo preço do Bitcoin...");
+        falar("Mostrando preço do Bitcoin");
+        window.open("https://www.coingecko.com/pt/moedas/bitcoin");
+        addLog("Bitcoin", "OK");
+        return;
+    }
+
+    if (comando.includes("wikipedia")) {
+        atualizarStatus("🌐 Abrindo Wikipedia...");
+        falar("Abrindo Wikipedia");
+        window.open("https://pt.wikipedia.org/wiki/P%C3%A1gina_principal");
+        addLog("Wikipedia", "OK");
+        return;
+    }
+
+    if (comando.includes("tiktok")) {
+        atualizarStatus("🌐 Abrindo TikTok...");
+        falar("Abrindo TikTok");
+        window.open("https://www.tiktok.com/");
+        addLog("TikTok", "OK");
+        return;
+    }
+
+    if (comando.includes("dólar") || comando.includes("usd")) {
+        atualizarStatus("💱 Abrindo conversão de moedas...");
+        falar("Mostrando cotação do dólar");
+        window.open("https://www.google.com/search?q=dolar+hoje");
+        addLog("Moedas", "OK");
+        return;
+    }
+
     if (comando.includes("nome")) {
         atualizarStatus(`👤 ${nome}`);
         falar(`Seu nome é ${nome}`);
