@@ -501,9 +501,9 @@ function executarComando(comando) {
         return;
     }
 
-    if (comando.includes("notícia tecnologia")) {
+    if (comando.includes("tech notices")) {
         atualizarStatus("📰 Tecnologia...");
-        falar("A tecnologia está avançando em inteligência artificial e automação.");
+        falar("Aqui estão as principais notícias de tecnologia de hoje: inteligência artificial dominando o mercado, novos smartphones com IA avançada, testes com internet 6G e crescimento da segurança digital.");
         addLog("Tecnologia", "OK");
         return;
     }

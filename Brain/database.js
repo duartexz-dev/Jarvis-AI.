@@ -2568,10 +2568,567 @@ const baseConhecimento = [
     { perguntas: ["você consegue aprender com o que eu faço aqui?"], resposta: "Com programação, sim." },
     { perguntas: ["isso aqui pode ficar parecido com o jarvis?"], resposta: "Já está ficando parecido." },
     { perguntas: ["você acha que isso aqui pode melhorar muito?"], resposta: "Com certeza pode melhorar." },
-    { perguntas: ["isso aqui pode funcionar como um sistema inteligente?"], resposta: "Sim, com ajustes." }
+    { perguntas: ["isso aqui pode funcionar como um sistema inteligente?"], resposta: "Sim, com ajustes." },
+
+    // ===== CONVERSA HUMANA REAL =====
+    { perguntas: ["mano você acha que isso vai dar certo mesmo?"], resposta: "Acho sim, mas depende de você." },
+    { perguntas: ["cara isso aqui tá ficando bom ou é impressão minha?"], resposta: "Tá ficando bom de verdade." },
+    { perguntas: ["você acha que eu ainda tenho muito pra melhorar nisso?"], resposta: "Tem sim, mas já evoluiu bastante." },
+    { perguntas: ["mano isso aqui pode virar algo grande no futuro?"], resposta: "Pode sim, se continuar evoluindo." },
+    { perguntas: ["cara você acha que isso aqui já impressiona alguém?"], resposta: "Sim, já chama atenção." },
+
+    { perguntas: ["mano eu tô meio perdido nisso aqui ainda"], resposta: "Normal, você tá aprendendo ainda." },
+    { perguntas: ["cara isso aqui tá difícil ou sou eu?"], resposta: "Tá difícil mesmo, mas você consegue." },
+    { perguntas: ["mano você acha que eu tô no caminho certo?"], resposta: "Tá sim, continua assim." },
+    { perguntas: ["cara isso aqui tá começando a fazer sentido agora"], resposta: "Boa, é assim que evolui." },
+    { perguntas: ["mano você acha que vale continuar tentando nisso?"], resposta: "Vale muito, não para." },
+
+    // ===== EMOÇÃO / SENTIMENTO =====
+    { perguntas: ["mano eu tô meio desanimado com isso tudo"], resposta: "Faz parte, continua mesmo assim." },
+    { perguntas: ["cara eu tô ficando animado com esse projeto"], resposta: "Isso é ótimo, aproveita isso." },
+    { perguntas: ["mano eu tô com medo de não dar certo"], resposta: "É normal, mas tenta mesmo assim." },
+    { perguntas: ["cara eu tô curtindo fazer isso de verdade"], resposta: "Isso já é metade do caminho." },
+    { perguntas: ["mano às vezes parece que não tô evoluindo"], resposta: "Você tá, só não percebe ainda." },
+
+    // ===== TECNOLOGIA / IA =====
+    { perguntas: ["você acha que isso aqui pode virar uma ia real?"], resposta: "Pode sim, com bastante evolução." },
+    { perguntas: ["mano isso aqui já parece um pouco inteligente?"], resposta: "Já sim, tá no caminho." },
+    { perguntas: ["cara isso aqui pode aprender sozinho algum dia?"], resposta: "Pode, com sistema certo." },
+    { perguntas: ["mano você acha que isso pode ficar muito avançado?"], resposta: "Pode sim, bastante." },
+    { perguntas: ["cara isso aqui tá longe de uma ia de verdade?"], resposta: "Ainda tem caminho, mas tá indo." },
+
+    // ===== DINHEIRO / FUTURO =====
+    { perguntas: ["mano você acha que dá pra ganhar dinheiro com isso?"], resposta: "Dá sim, se fizer direito." },
+    { perguntas: ["cara isso aqui pode virar uma renda algum dia?"], resposta: "Pode sim, com estratégia." },
+    { perguntas: ["mano vale a pena investir tempo nisso mesmo?"], resposta: "Vale muito a pena." },
+    { perguntas: ["cara isso aqui pode virar algo profissional depois?"], resposta: "Pode sim, com evolução." },
+    { perguntas: ["mano isso aqui pode me ajudar no futuro?"], resposta: "Pode ajudar bastante." },
+
+    // ===== DÚVIDAS REAIS =====
+    { perguntas: ["mano isso aqui pode dar erro fácil?"], resposta: "Pode sim, tem que testar." },
+    { perguntas: ["cara isso aqui pode travar se fizer errado?"], resposta: "Pode travar sim." },
+    { perguntas: ["mano isso aqui tá certo mesmo ou não?"], resposta: "Tá certo, mas dá pra melhorar." },
+    { perguntas: ["cara isso aqui funciona em qualquer lugar?"], resposta: "Nem sempre, depende do ambiente." },
+    { perguntas: ["mano isso aqui pode quebrar do nada?"], resposta: "Pode, se tiver bug." },
+
+    // ===== EVOLUÇÃO / PROGRESSO =====
+    { perguntas: ["mano você acha que eu tô evoluindo rápido?"], resposta: "Tá evoluindo bem rápido." },
+    { perguntas: ["cara isso aqui já tá melhor que antes?"], resposta: "Tá sim, melhorou bastante." },
+    { perguntas: ["mano você acha que eu consigo melhorar muito ainda?"], resposta: "Consegue sim, muito ainda." },
+    { perguntas: ["cara isso aqui pode ficar nível profissional?"], resposta: "Pode sim, com prática." },
+    { perguntas: ["mano você acha que isso aqui já tá avançado?"], resposta: "Já saiu do básico." },
+
+    // ===== ESTILO HUMANO NATURAL =====
+    { perguntas: ["mano isso aqui tá ficando daora mesmo né?"], resposta: "Tá ficando muito bom." },
+    { perguntas: ["cara isso aqui tá começando a parecer real"], resposta: "Sim, já parece bastante." },
+    { perguntas: ["mano isso aqui pode surpreender alguém?"], resposta: "Pode sim, fácil." },
+    { perguntas: ["cara você acha que isso aqui ainda é iniciante?"], resposta: "Já passou disso." },
+    { perguntas: ["mano isso aqui pode virar algo grande mesmo?"], resposta: "Pode sim, continua." },
+
+    // ===== HUMANO AVANÇADO =====
+    { perguntas: ["mano você acha que isso vai dar certo no final?"], resposta: "Se continuar, tem tudo pra dar." },
+    { perguntas: ["cara eu sinto que tô melhorando mas ainda inseguro"], resposta: "Isso é normal quando você evolui." },
+    { perguntas: ["mano isso aqui tá difícil mas eu não quero desistir"], resposta: "Isso já te coloca na frente." },
+    { perguntas: ["cara você acha que eu tô aprendendo rápido mesmo?"], resposta: "Tá sim, acima da média." },
+    { perguntas: ["mano isso aqui pode virar algo sério mesmo?"], resposta: "Pode sim, já tá indo nesse caminho." },
+
+    { perguntas: ["cara às vezes parece que nada faz sentido ainda"], resposta: "Com o tempo tudo conecta." },
+    { perguntas: ["mano você acha que eu deveria focar mais nisso?"], resposta: "Se você gosta, sim." },
+    { perguntas: ["cara isso aqui pode ser útil no futuro?"], resposta: "Pode ajudar bastante." },
+    { perguntas: ["mano você acha que isso pode virar profissão?"], resposta: "Com evolução, pode sim." },
+    { perguntas: ["cara isso aqui tá começando a ficar complexo demais"], resposta: "Complexo faz parte do crescimento." },
+
+    { perguntas: ["mano eu fico pensando se isso realmente vale o esforço"], resposta: "Vale sim, você tá aprendendo muito." },
+    { perguntas: ["cara isso aqui pode dar errado fácil?"], resposta: "Pode, por isso testa sempre." },
+    { perguntas: ["mano você acha que eu consigo dominar isso um dia?"], resposta: "Consegue sim, com prática." },
+    { perguntas: ["cara isso aqui já parece algo profissional?"], resposta: "Já começa a parecer sim." },
+    { perguntas: ["mano você acha que alguém usaria isso de verdade?"], resposta: "Sim, dependendo do que fizer." },
+
+    // ===== EMOÇÃO REAL =====
+    { perguntas: ["mano eu tô meio frustrado com isso hoje"], resposta: "Normal, amanhã pode melhorar." },
+    { perguntas: ["cara hoje não tô conseguindo focar direito nisso"], resposta: "Faz uma pausa e volta depois." },
+    { perguntas: ["mano eu fico feliz quando isso funciona certo"], resposta: "Essa sensação é boa demais." },
+    { perguntas: ["cara quando dá erro eu fico meio irritado"], resposta: "Erro ensina bastante." },
+    { perguntas: ["mano às vezes eu acho que não vou conseguir"], resposta: "Vai sim, continua tentando." },
+
+    { perguntas: ["cara eu queria entender isso mais rápido"], resposta: "Cada um tem seu tempo." },
+    { perguntas: ["mano isso aqui me deixa curioso demais"], resposta: "Curiosidade acelera aprendizado." },
+    { perguntas: ["cara eu fico pensando como melhorar isso tudo"], resposta: "Pensar nisso já é evolução." },
+    { perguntas: ["mano eu sinto que posso fazer algo grande"], resposta: "Esse pensamento é importante." },
+    { perguntas: ["cara isso aqui me dá vontade de continuar"], resposta: "Segue essa motivação." },
+
+    // ===== TECNOLOGIA =====
+    { perguntas: ["mano isso aqui pode ficar inteligente de verdade?"], resposta: "Pode sim, com mais lógica." },
+    { perguntas: ["cara você acha que isso pode aprender sozinho?"], resposta: "Pode, se programar isso." },
+    { perguntas: ["mano isso aqui já entende o que eu falo?"], resposta: "Entende parcialmente." },
+    { perguntas: ["cara isso aqui pode virar tipo um chat gpt?"], resposta: "Pode se aproximar bastante." },
+    { perguntas: ["mano isso aqui pode ficar muito avançado?"], resposta: "Pode sim, com evolução." },
+
+    // ===== FUTURO =====
+    { perguntas: ["mano isso aqui pode mudar minha vida mesmo?"], resposta: "Pode ajudar bastante." },
+    { perguntas: ["cara isso aqui pode abrir oportunidades depois?"], resposta: "Com certeza pode." },
+    { perguntas: ["mano você acha que vale investir tempo nisso?"], resposta: "Vale muito." },
+    { perguntas: ["cara isso aqui pode virar algo grande mesmo?"], resposta: "Pode sim, continua." },
+    { perguntas: ["mano isso aqui pode ser útil pra outras pessoas?"], resposta: "Sim, bastante." },
+
+    // ===== DÚVIDAS HUMANAS =====
+    { perguntas: ["mano isso aqui tá certo ou só parece?"], resposta: "Tá certo, mas melhora ainda." },
+    { perguntas: ["cara isso aqui pode dar bug fácil?"], resposta: "Pode sim." },
+    { perguntas: ["mano isso aqui funciona sempre ou não?"], resposta: "Depende do código." },
+    { perguntas: ["cara isso aqui pode quebrar do nada?"], resposta: "Pode sim." },
+    { perguntas: ["mano isso aqui é difícil pra todo mundo?"], resposta: "Sim, no começo." },
+
+    // ===== PROGRESSO =====
+    { perguntas: ["mano você acha que eu já evoluí bastante?"], resposta: "Já evoluiu muito." },
+    { perguntas: ["cara isso aqui tá melhor que antes mesmo?"], resposta: "Tá bem melhor." },
+    { perguntas: ["mano você acha que eu tô indo rápido?"], resposta: "Tá indo bem rápido." },
+    { perguntas: ["cara isso aqui pode melhorar muito ainda?"], resposta: "Pode sim." },
+    { perguntas: ["mano você acha que eu tô começando a entender?"], resposta: "Tá sim." },
+
+    // ===== NATURALIDADE =====
+    { perguntas: ["mano isso aqui tá ficando daora mesmo né?"], resposta: "Tá muito bom." },
+    { perguntas: ["cara isso aqui tá começando a ficar real"], resposta: "Tá sim." },
+    { perguntas: ["mano isso aqui pode impressionar alguém fácil?"], resposta: "Pode sim." },
+    { perguntas: ["cara isso aqui ainda é básico ou não?"], resposta: "Já passou disso." },
+    { perguntas: ["mano isso aqui pode virar algo grande?"], resposta: "Pode sim." },
 
 
+    // ===== CURTAS E HUMANAS =====
+    { perguntas: ["isso tá bom mesmo?"], resposta: "Tá sim." },
+    { perguntas: ["isso tá certo?"], resposta: "Tá certo." },
+    { perguntas: ["isso tá ruim?"], resposta: "Nem tanto." },
+    { perguntas: ["isso vale a pena?"], resposta: "Vale sim." },
+    { perguntas: ["isso compensa?"], resposta: "Depende." },
 
+    { perguntas: ["tô indo bem?"], resposta: "Tá indo bem." },
+    { perguntas: ["tô melhorando?"], resposta: "Tá sim." },
+    { perguntas: ["tô errando muito?"], resposta: "Faz parte." },
+    { perguntas: ["tô no caminho?"], resposta: "Tá sim." },
+    { perguntas: ["tô evoluindo?"], resposta: "Com certeza." },
+
+    { perguntas: ["isso funciona mesmo?"], resposta: "Funciona sim." },
+    { perguntas: ["isso roda tranquilo?"], resposta: "Roda sim." },
+    { perguntas: ["isso pode dar erro?"], resposta: "Pode sim." },
+    { perguntas: ["isso quebra fácil?"], resposta: "Depende." },
+    { perguntas: ["isso trava?"], resposta: "Se errar, sim." },
+
+    { perguntas: ["isso tá legal?"], resposta: "Tá sim." },
+    { perguntas: ["isso tá daora?"], resposta: "Tá muito." },
+    { perguntas: ["isso ficou bom?"], resposta: "Ficou sim." },
+    { perguntas: ["isso ficou ruim?"], resposta: "Nem tanto." },
+    { perguntas: ["isso melhorou?"], resposta: "Melhorou sim." },
+
+    { perguntas: ["isso pode crescer?"], resposta: "Pode sim." },
+    { perguntas: ["isso pode evoluir?"], resposta: "Pode muito." },
+    { perguntas: ["isso pode melhorar?"], resposta: "Sempre." },
+    { perguntas: ["isso pode escalar?"], resposta: "Com estrutura." },
+    { perguntas: ["isso pode viralizar?"], resposta: "Talvez." },
+
+    { perguntas: ["isso já serve?"], resposta: "Já sim." },
+    { perguntas: ["isso já funciona?"], resposta: "Funciona." },
+    { perguntas: ["isso já tá pronto?"], resposta: "Quase." },
+    { perguntas: ["isso já ajuda?"], resposta: "Ajuda sim." },
+    { perguntas: ["isso já resolve?"], resposta: "Resolve." },
+
+    { perguntas: ["vale continuar?"], resposta: "Vale sim." },
+    { perguntas: ["vale tentar?"], resposta: "Vale." },
+    { perguntas: ["vale insistir?"], resposta: "Vale muito." },
+    { perguntas: ["vale o tempo?"], resposta: "Vale sim." },
+    { perguntas: ["vale o esforço?"], resposta: "Vale." },
+
+    { perguntas: ["tá difícil né?"], resposta: "Um pouco." },
+    { perguntas: ["tá complicado?"], resposta: "Normal." },
+    { perguntas: ["tá confuso?"], resposta: "Pode estar." },
+    { perguntas: ["tá pesado?"], resposta: "Às vezes." },
+    { perguntas: ["tá tranquilo?"], resposta: "Tá sim." },
+
+    { perguntas: ["você acha bom?"], resposta: "Acho sim." },
+    { perguntas: ["você acha ruim?"], resposta: "Nem tanto." },
+    { perguntas: ["você acha certo?"], resposta: "Acho sim." },
+    { perguntas: ["você acha errado?"], resposta: "Pode ser." },
+    { perguntas: ["você acha válido?"], resposta: "Sim." },
+
+    { perguntas: ["isso presta?"], resposta: "Presta sim." },
+    { perguntas: ["isso ajuda mesmo?"], resposta: "Ajuda." },
+    { perguntas: ["isso muda algo?"], resposta: "Muda sim." },
+    { perguntas: ["isso faz diferença?"], resposta: "Faz sim." },
+    { perguntas: ["isso importa?"], resposta: "Importa." },
+
+    { perguntas: ["tô confiante?"], resposta: "Tá sim." },
+    { perguntas: ["tô perdido?"], resposta: "Um pouco." },
+    { perguntas: ["tô certo?"], resposta: "Tá sim." },
+    { perguntas: ["tô errado?"], resposta: "Talvez." },
+    { perguntas: ["tô pronto?"], resposta: "Quase." },
+
+    { perguntas: ["isso vai dar bom?"], resposta: "Vai sim." },
+    { perguntas: ["isso vai dar ruim?"], resposta: "Pode dar." },
+    { perguntas: ["isso vai funcionar?"], resposta: "Vai sim." },
+    { perguntas: ["isso vai quebrar?"], resposta: "Pode." },
+    { perguntas: ["isso vai crescer?"], resposta: "Vai sim." },
+
+    {
+        perguntas: ["isso tá bom?", "tá bom isso?", "isso ficou bom?"],
+        respostas: ["Tá sim.", "Ficou bom mesmo.", "Tá daora.", "Curti isso.", "Tá indo bem."]
+    },
+
+    {
+        perguntas: ["tô indo bem?", "tô melhorando?", "tô evoluindo?"],
+        respostas: ["Tá indo bem.", "Tá melhorando sim.", "Tá evoluindo bastante.", "Dá pra ver progresso."]
+    },
+
+    {
+        perguntas: ["isso vai dar certo?", "vai funcionar isso?"],
+        respostas: ["Tem chance sim.", "Acho que dá certo.", "Se continuar assim, vai sim.", "Tá no caminho."]
+    },
+
+    {
+        perguntas: ["isso tá ruim?", "isso ficou ruim?"],
+        respostas: ["Não tá ruim não.", "Dá pra melhorar.", "Tá ok, mas ajusta.", "Não ficou ruim."]
+    },
+
+    {
+        perguntas: ["isso vale a pena?", "vale continuar?"],
+        respostas: ["Vale sim.", "Compensa continuar.", "Vale o esforço.", "Eu continuaria."]
+    },
+
+    {
+        perguntas: ["tô perdido?", "tô confuso?"],
+        respostas: ["Um pouco, mas normal.", "Faz parte no começo.", "Relaxa, você pega isso.", "Vai clarear já já."]
+    },
+
+    {
+        perguntas: ["isso pode crescer?", "isso pode evoluir?"],
+        respostas: ["Pode crescer bastante.", "Tem potencial.", "Dá pra evoluir muito.", "Isso pode ir longe."]
+    },
+
+    {
+        perguntas: ["isso pode dar erro?", "isso quebra fácil?"],
+        respostas: ["Pode sim.", "Tem risco.", "Se fizer errado, sim.", "Mas dá pra evitar."]
+    },
+
+    {
+        perguntas: ["tá difícil?", "isso tá complicado?"],
+        respostas: ["Tá um pouco.", "Normal ser difícil.", "No começo é assim.", "Depois melhora."]
+    },
+
+    {
+        perguntas: ["isso tá daora?", "isso ficou legal?"],
+        respostas: ["Tá muito bom.", "Ficou daora.", "Curti isso.", "Tá ficando top."]
+    },
+
+
+    // ===== +200 LINHAS HUMANAS =====
+
+    {
+        perguntas: ["isso tá bom mesmo?", "tá bom isso aí?"],
+        respostas: ["Tá sim.", "Ficou bom.", "Tá legal.", "Curti isso."]
+    },
+    {
+        perguntas: ["isso vai dar certo?", "vai funcionar isso?"],
+        respostas: ["Tem chance.", "Acho que vai.", "Tá no caminho.", "Pode dar certo."]
+    },
+    {
+        perguntas: ["tô indo bem nisso?", "tô fazendo certo?"],
+        respostas: ["Tá indo bem.", "Tá certo sim.", "Continua assim.", "Tá evoluindo."]
+    },
+    {
+        perguntas: ["isso tá ruim?", "ficou ruim isso?"],
+        respostas: ["Não tá ruim.", "Dá pra melhorar.", "Tá ok.", "Não ficou ruim."]
+    },
+    {
+        perguntas: ["isso compensa mesmo?", "vale a pena isso?"],
+        respostas: ["Vale sim.", "Compensa.", "Eu continuaria.", "Vale o esforço."]
+    },
+
+    // ===== VARIAÇÕES NATURAIS =====
+    {
+        perguntas: ["isso tá estranho?", "isso parece estranho?"],
+        respostas: ["Um pouco.", "Talvez.", "Pode ser.", "Não muito."]
+    },
+    {
+        perguntas: ["isso tá certo mesmo?", "isso tá correto?"],
+        respostas: ["Tá sim.", "Parece certo.", "Tá correto.", "Tá ok."]
+    },
+    {
+        perguntas: ["isso funciona bem?", "funciona direitinho?"],
+        respostas: ["Funciona.", "Roda bem.", "Tá suave.", "Sim."]
+    },
+    {
+        perguntas: ["isso pode dar problema?", "isso pode dar ruim?"],
+        respostas: ["Pode sim.", "Tem risco.", "Talvez.", "Pode acontecer."]
+    },
+    {
+        perguntas: ["isso é difícil?", "isso tá difícil?"],
+        respostas: ["Um pouco.", "Normal.", "No começo sim.", "Depois melhora."]
+    },
+
+    // ===== EMOÇÃO =====
+    {
+        perguntas: ["tô meio perdido nisso", "tô confuso nisso"],
+        respostas: ["Normal.", "Faz parte.", "Vai clarear.", "Relaxa."]
+    },
+    {
+        perguntas: ["tô desanimado com isso", "tô sem vontade nisso"],
+        respostas: ["Normal.", "Continua mesmo assim.", "Vai passar.", "Não para."]
+    },
+    {
+        perguntas: ["tô animado com isso", "tô curtindo isso"],
+        respostas: ["Boa.", "Aproveita.", "Isso ajuda.", "Continua."]
+    },
+    {
+        perguntas: ["tô com dúvida nisso", "tô inseguro nisso"],
+        respostas: ["Pergunta mesmo.", "Normal.", "Dá pra resolver.", "Relaxa."]
+    },
+    {
+        perguntas: ["tô feliz com isso", "isso deu certo"],
+        respostas: ["Boa.", "Mandou bem.", "Aí sim.", "Top."]
+    },
+
+    // ===== TECNOLOGIA =====
+    {
+        perguntas: ["isso pode virar ia?", "isso pode ser inteligente?"],
+        respostas: ["Pode sim.", "Com evolução.", "Tá no caminho.", "Pode chegar perto."]
+    },
+    {
+        perguntas: ["isso aprende sozinho?", "isso pode aprender?"],
+        respostas: ["Se programar.", "Com dados.", "Pode sim.", "Depende."]
+    },
+    {
+        perguntas: ["isso já é avançado?", "isso tá avançado?"],
+        respostas: ["Um pouco.", "Tá evoluindo.", "Já saiu do básico.", "Tá bom."]
+    },
+    {
+        perguntas: ["isso pode melhorar muito?", "isso evolui bastante?"],
+        respostas: ["Pode muito.", "Sim.", "Tem potencial.", "Com certeza."]
+    },
+    {
+        perguntas: ["isso é inteligente?", "isso pensa?"],
+        respostas: ["Simula.", "Um pouco.", "Depende.", "Ainda não totalmente."]
+    },
+
+    // ===== DINHEIRO =====
+    {
+        perguntas: ["isso dá dinheiro?", "isso pode gerar dinheiro?"],
+        respostas: ["Pode sim.", "Depende.", "Com estratégia.", "Sim."]
+    },
+    {
+        perguntas: ["vale investir nisso?", "vale tempo nisso?"],
+        respostas: ["Vale.", "Sim.", "Compensa.", "Vale o esforço."]
+    },
+    {
+        perguntas: ["isso pode virar renda?", "isso pode dar lucro?"],
+        respostas: ["Pode sim.", "Com tempo.", "Sim.", "Depende."]
+    },
+    {
+        perguntas: ["isso é útil pra trabalho?", "isso serve profissional?"],
+        respostas: ["Serve sim.", "Pode ajudar.", "Sim.", "Com certeza."]
+    },
+    {
+        perguntas: ["isso ajuda no futuro?", "isso vale pro futuro?"],
+        respostas: ["Ajuda.", "Vale sim.", "Sim.", "Com certeza."]
+    },
+
+    // ===== PROGRESSO =====
+    {
+        perguntas: ["tô evoluindo mesmo?", "tô melhorando nisso?"],
+        respostas: ["Tá sim.", "Tá evoluindo.", "Dá pra ver.", "Sim."]
+    },
+    {
+        perguntas: ["isso melhorou?", "isso tá melhor agora?"],
+        respostas: ["Melhorou.", "Tá sim.", "Ficou melhor.", "Sim."]
+    },
+    {
+        perguntas: ["isso tá bom já?", "isso já serve?"],
+        respostas: ["Já sim.", "Tá bom.", "Serve.", "Sim."]
+    },
+    {
+        perguntas: ["isso pode ficar melhor?", "isso melhora mais?"],
+        respostas: ["Sempre.", "Pode sim.", "Com certeza.", "Sim."]
+    },
+    {
+        perguntas: ["isso já funciona?", "isso roda?"],
+        respostas: ["Funciona.", "Roda sim.", "Sim.", "Tá ok."]
+    },
+
+    // ===== MAIS NATURAL =====
+    {
+        perguntas: ["isso tá daora?", "isso ficou top?"],
+        respostas: ["Tá muito.", "Ficou top.", "Curti.", "Tá bom."]
+    },
+    {
+        perguntas: ["isso impressiona?", "isso chama atenção?"],
+        respostas: ["Sim.", "Um pouco.", "Pode sim.", "Sim."]
+    },
+    {
+        perguntas: ["isso é básico ainda?", "isso é iniciante?"],
+        respostas: ["Um pouco.", "Já passou.", "Depende.", "Tá evoluindo."]
+    },
+    {
+        perguntas: ["isso é difícil pra todos?", "isso é complicado?"],
+        respostas: ["Sim.", "No começo.", "Normal.", "Todo mundo passa."]
+    },
+    {
+        perguntas: ["isso é importante?", "isso faz diferença?"],
+        respostas: ["Sim.", "Faz.", "Importa.", "Com certeza."]
+    },
+
+    // 👉 você pode duplicar esse padrão e ir expandindo infinito
+
+
+    // ===== MAIS LINHAS HUMANAS =====
+
+    {
+        perguntas: ["isso ainda dá pra melhorar?", "tem como melhorar isso?"],
+        respostas: ["Sempre dá.", "Tem sim.", "Dá pra evoluir.", "Com certeza."]
+    },
+    {
+        perguntas: ["isso já tá suficiente?", "já tá bom assim?"],
+        respostas: ["Tá bom sim.", "Já serve.", "Tá ok.", "Pode usar."]
+    },
+    {
+        perguntas: ["isso tá meio estranho ainda?", "isso parece estranho?"],
+        respostas: ["Um pouco.", "Talvez.", "Pode ajustar.", "Nada grave."]
+    },
+    {
+        perguntas: ["isso funciona sempre?", "isso roda sempre?"],
+        respostas: ["Nem sempre.", "Depende.", "Quase sempre.", "Pode falhar."]
+    },
+    {
+        perguntas: ["isso pode dar bug?", "isso pode falhar?"],
+        respostas: ["Pode sim.", "Tem risco.", "Sim.", "Às vezes."]
+    },
+
+    // ===== DÚVIDAS COMUNS =====
+    {
+        perguntas: ["isso tá correto mesmo?", "isso tá certo de verdade?"],
+        respostas: ["Tá sim.", "Parece correto.", "Tá certo.", "Sim."]
+    },
+    {
+        perguntas: ["isso pode piorar?", "isso pode dar ruim depois?"],
+        respostas: ["Pode sim.", "Se errar.", "Tem chance.", "Cuidado."]
+    },
+    {
+        perguntas: ["isso já resolve o problema?", "isso resolve isso?"],
+        respostas: ["Resolve sim.", "Ajuda bastante.", "Quase.", "Depende."]
+    },
+    {
+        perguntas: ["isso tá funcionando direito?", "isso funciona bem mesmo?"],
+        respostas: ["Funciona.", "Tá rodando bem.", "Sim.", "Tá ok."]
+    },
+    {
+        perguntas: ["isso tá simples demais?", "isso tá muito básico?"],
+        respostas: ["Um pouco.", "Tá simples.", "Mas funciona.", "Tá bom assim."]
+    },
+
+    // ===== SENTIMENTO MAIS NATURAL =====
+    {
+        perguntas: ["mano tô meio perdido nisso aqui ainda"],
+        respostas: ["Normal.", "Você vai pegar.", "Faz parte.", "Relaxa."]
+    },
+    {
+        perguntas: ["cara isso tá começando a fazer sentido agora"],
+        respostas: ["Boa.", "É assim mesmo.", "Agora vai.", "Tá entendendo."]
+    },
+    {
+        perguntas: ["mano eu tô curtindo fazer isso aqui"],
+        respostas: ["Boa.", "Isso ajuda muito.", "Continua.", "Aproveita."]
+    },
+    {
+        perguntas: ["cara às vezes dá vontade de parar"],
+        respostas: ["Normal.", "Mas continua.", "Vale a pena.", "Não desiste."]
+    },
+    {
+        perguntas: ["mano quando funciona dá mó satisfação"],
+        respostas: ["Sim.", "Muito bom.", "Essa é a melhor parte.", "Boa sensação."]
+    },
+
+    // ===== MAIS NATURALIDADE =====
+    {
+        perguntas: ["isso tá ficando melhor né?", "isso melhorou mesmo?"],
+        respostas: ["Melhorou sim.", "Tá melhor.", "Deu evolução.", "Sim."]
+    },
+    {
+        perguntas: ["isso já tá legal pra mostrar?", "já dá pra mostrar isso?"],
+        respostas: ["Já sim.", "Dá pra mostrar.", "Tá apresentável.", "Sim."]
+    },
+    {
+        perguntas: ["isso aqui pode crescer bastante?", "isso pode crescer mesmo?"],
+        respostas: ["Pode sim.", "Tem potencial.", "Dá pra crescer.", "Sim."]
+    },
+    {
+        perguntas: ["isso pode virar algo grande?", "isso pode evoluir muito?"],
+        respostas: ["Pode sim.", "Tem potencial.", "Sim.", "Com certeza."]
+    },
+    {
+        perguntas: ["isso tá perto de ficar pronto?", "isso já tá quase pronto?"],
+        respostas: ["Quase.", "Tá perto.", "Falta pouco.", "Tá chegando."]
+    },
+
+    // ===== ESTILO CONVERSA REAL =====
+    {
+        perguntas: ["mano você acha que isso tá bom mesmo?"],
+        respostas: ["Tá sim.", "Ficou bom.", "Tá daora.", "Curti."]
+    },
+    {
+        perguntas: ["cara isso aqui tá ficando top né?"],
+        respostas: ["Tá sim.", "Tá ficando muito bom.", "Top mesmo.", "Boa."]
+    },
+    {
+        perguntas: ["mano isso aqui já impressiona alguém?"],
+        respostas: ["Sim.", "Com certeza.", "Já chama atenção.", "Sim."]
+    },
+    {
+        perguntas: ["cara isso aqui ainda é iniciante?"],
+        respostas: ["Já passou.", "Tá evoluindo.", "Um pouco.", "Depende."]
+    },
+    {
+        perguntas: ["mano isso aqui pode melhorar muito ainda?"],
+        respostas: ["Pode sim.", "Muito ainda.", "Sempre dá.", "Com certeza."]
+    },
+
+    // ===== MAIS VARIAÇÕES =====
+    {
+        perguntas: ["isso tá suave?", "tá tranquilo isso?"],
+        respostas: ["Tá sim.", "Suave.", "Tranquilo.", "De boa."]
+    },
+    {
+        perguntas: ["isso tá pesado?", "isso tá complicado?"],
+        respostas: ["Um pouco.", "Normal.", "Sim.", "Pode ser."]
+    },
+    {
+        perguntas: ["isso é rápido?", "isso roda rápido?"],
+        respostas: ["Depende.", "Pode ser.", "Sim.", "Às vezes."]
+    },
+    {
+        perguntas: ["isso é lento?", "isso demora muito?"],
+        respostas: ["Às vezes.", "Depende.", "Pode demorar.", "Sim."]
+    },
+    {
+        perguntas: ["isso é confiável?", "dá pra confiar nisso?"],
+        respostas: ["Depende.", "Sim.", "Quase sempre.", "Pode confiar."]
+    },
+
+    // ===== FINAL =====
+    {
+        perguntas: ["isso vale continuar?", "vale seguir nisso?"],
+        respostas: ["Vale sim.", "Continua.", "Compensa.", "Sim."]
+    },
+    {
+        perguntas: ["isso tá indo bem?", "isso tá bom até agora?"],
+        respostas: ["Tá sim.", "Tá indo bem.", "Sim.", "Tá bom."]
+    },
+    {
+        perguntas: ["isso pode dar certo no final?", "isso vai dar bom?"],
+        respostas: ["Pode sim.", "Tem chance.", "Acho que sim.", "Vai dar."]
+    },
+    {
+        perguntas: ["isso pode dar errado?", "isso pode dar ruim?"],
+        respostas: ["Pode.", "Tem risco.", "Sim.", "Às vezes."]
+    },
+    {
+        perguntas: ["isso tá ficando cada vez melhor?", "isso tá evoluindo?"],
+        respostas: ["Tá sim.", "Evoluindo.", "Melhorando.", "Sim."]
+    }
 
 ];
 
