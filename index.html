@@ -17,26 +17,39 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-dark px-4 fade-in">
+    <nav class="navbar navbar-dark fade-in">
         <span class="navbar-brand" id="res">JARVIS SYSTEM</span>
     </nav>
 
-    <!-- CONTAINER PRINCIPAL -->
+    <!-- CONTAINER -->
     <div class="main-container">
 
         <div class="glass-card slide-in">
 
             <h1 class="title">Bem-vindo</h1>
 
-            <!-- BOTÃO GRANDE -->
-            <button class="btn-big" style="margin-bottom: 10px;" onclick="iniciar()">Iniciar Sistema</button>
+            <!-- STATUS -->
+            <p id="status" style="font-size: 13px; opacity: 0.6; margin-bottom: 15px;">
+                Sistema offline
+            </p>
+
+            <!-- BOTÃO INICIAR -->
+            <button class="btn-big mb-2" onclick="iniciarSistema()">
+                Iniciar Sistema
+            </button>
 
             <!-- INPUT -->
             <input id="nomeInput" class="form-control mb-3" placeholder="Digite seu nome">
-            <button class="btn-enter" id="btn-confirm" onclick="confirmar()">confirmar</button>
-            <!-- BOTÃO ENTRAR -->
-            <button class="btn btn-enter" style="margin-top: 10px; text-align: center;" id="btn-enter"><a
-                    href="Interface/interface.html" class="link">Entrar</a></button>
+
+            <!-- CONFIRMAR -->
+            <button class="btn-enter" id="btn-confirm" onclick="confirmarNome()">
+                Confirmar
+            </button>
+
+            <!-- ENTRAR -->
+            <button class="btn btn-enter mt-2" id="btn-enter" onclick="entrarSistema()">
+                Entrar
+            </button>
 
         </div>
 

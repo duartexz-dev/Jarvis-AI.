@@ -1,74 +1,58 @@
-/* ===== FUNDO SUAVE ===== */
-body {
+/* ===== RESET ===== */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== FUNDO ESPAÇO ===== */
+body {
   height: 100vh;
   font-family: "Segoe UI", sans-serif;
   color: #d1d5db;
   overflow: hidden;
-
-  background: linear-gradient(135deg, #0b0b0b, #111827, #0b0b0b);
-  background-size: 300% 300%;
-  animation: bgMove 12s infinite alternate;
+  background: radial-gradient(circle at center, #0a0a0a, #000 80%);
 }
 
-@keyframes bgMove {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
-.link {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-/* ===== LUZES DE FUNDO (SUAVE) ===== */
+/* ===== ESTRELAS (CAMADA 1) ===== */
 body::before {
   content: "";
   position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.04),
-    transparent 70%
-  );
-  top: -100px;
-  left: -100px;
-  filter: blur(80px);
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.2;
+  animation: moveStars 120s linear infinite;
+  pointer-events: none; /* 🔥 CORRIGE BUG */
 }
 
+/* ===== ESTRELAS (CAMADA 2) ===== */
 body::after {
   content: "";
   position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(
-    circle,
-    rgba(100, 100, 255, 0.08),
-    transparent 70%
-  );
-  bottom: -100px;
-  right: -100px;
-  filter: blur(100px);
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(white 1.5px, transparent 1px);
+  background-size: 30px 30px;
+  opacity: 0.3;
+  animation: moveStars 60s linear infinite;
+  pointer-events: none;
 }
 
-/* ===== NAVBAR CLEAN ===== */
+@keyframes moveStars {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-300px);
+  }
+}
+
+/* ===== NAVBAR ===== */
 .navbar {
-  background: rgba(20, 20, 20, 0.6);
-  backdrop-filter: blur(12px);
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-.navbar-brand {
-  color: #e5e7eb !important;
-  letter-spacing: 1px;
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 /* ===== CONTAINER ===== */
@@ -79,63 +63,28 @@ body::after {
   align-items: center;
 }
 
-/* ===== GLASS CARD PREMIUM ===== */
+/* ===== CARD ===== */
 .glass-card {
   width: 360px;
   padding: 30px;
   border-radius: 20px;
 
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
 
   border: 1px solid rgba(255, 255, 255, 0.08);
 
-  box-shadow:
-    0 10px 40px rgba(0, 0, 0, 0.6),
-    inset 0 0 10px rgba(255, 255, 255, 0.03);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
 
   text-align: center;
 
-  transform: perspective(1000px) rotateX(5deg);
   transition: 0.4s;
-
   position: relative;
-  overflow: hidden;
+  z-index: 10; /* 🔥 garante clique */
 }
 
-/* ===== REFLEXO SUAVE ===== */
-.glass-card::before {
-  content: "";
-  position: absolute;
-  width: 140%;
-  height: 50%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.15),
-    transparent
-  );
-  top: -60%;
-  left: -20%;
-  transform: rotate(25deg);
-  animation: reflection 6s infinite;
-}
-
-@keyframes reflection {
-  0% {
-    top: -70%;
-  }
-  100% {
-    top: 120%;
-  }
-}
-
-/* HOVER 3D */
 .glass-card:hover {
-  transform: perspective(1000px) rotateX(0deg) scale(1.02);
-  box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.8),
-    inset 0 0 20px rgba(255, 255, 255, 0.05);
+  transform: scale(1.02);
 }
 
 /* ===== TÍTULO ===== */
@@ -145,7 +94,7 @@ body::after {
   color: #f9fafb;
 }
 
-/* ===== BOTÃO GRANDE ===== */
+/* ===== BOTÃO ===== */
 .btn-big {
   width: 100%;
   padding: 15px;
@@ -156,25 +105,22 @@ body::after {
   color: #e5e7eb;
 
   transition: 0.3s;
+
+  min-height: 50px;
+  touch-action: manipulation;
 }
 
 .btn-big:hover {
   background: rgba(255, 255, 255, 0.15);
-  transform: scale(1.03);
 }
 
 /* ===== INPUT ===== */
 .form-control {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.15);
   color: #e5e7eb;
   text-align: center;
   display: none;
-}
-
-.form-control:focus {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3);
 }
 
 /* ===== BOTÃO ENTRAR ===== */
@@ -187,12 +133,6 @@ body::after {
   color: #000;
   font-weight: bold;
   display: none;
-  transition: 0.3s;
-}
-
-.btn-enter:hover {
-  background: #ffffff;
-  transform: scale(1.03);
 }
 
 /* ===== ANIMAÇÕES ===== */
@@ -216,7 +156,7 @@ body::after {
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;
